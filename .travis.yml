@@ -1,0 +1,55 @@
+language: python
+
+sudo: required
+dist: bionic
+
+addons:
+  apt:
+    packages:
+    - git
+    - build-essential
+    - automake
+    - libtool
+    - python-dev
+    - python-bs4
+    - python-beautifulsoup
+    - python-requests
+    - python-html5lib
+    - gettext
+    - swig
+
+python:
+  - "2.7"
+
+git:
+  depth: 1
+
+cache: pip
+
+install:
+- pip install -r requirements.txt
+
+before_script:
+- pushd .
+- cd xml
+
+jobs:
+  include:
+    - stage: python
+      script:
+        - popd
+        - python -m compileall .
+    - stage: all
+      script: python lyngsat-all.py
+    - stage: america
+      script: python lyngsat-america.py
+    - stage: asia
+      script: python lyngsat-asia.py
+    - stage: atlantic
+      script: python lyngsat-atlantic.py
+    - stage: europe
+      script: python lyngsat-europe.py
+    - stage: deploy
+      script:
+        - popd
+        - ./build.sh
