@@ -49,6 +49,7 @@ jobs:
       script: python lyngsat-atlantic.py
     - stage: europe
       script: python lyngsat-europe.py
-
-after_success:
-- ./build.sh
+    - stage: deploy
+      script:
+        - popd
+        - ./build.sh
