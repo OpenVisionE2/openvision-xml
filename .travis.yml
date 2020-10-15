@@ -40,5 +40,6 @@ jobs:
       script: python xml/lyngsat-atlantic.py
     - stage: europe
       script: python xml/lyngsat-europe.py
-    - stage: others
-      script: ./build.sh
+
+after_sucess:
+- ./build.sh
