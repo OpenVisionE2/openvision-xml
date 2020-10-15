@@ -53,3 +53,6 @@ jobs:
       script:
         - popd
         - ./build.sh
+
+deploy:
+  skip_cleanup: true
