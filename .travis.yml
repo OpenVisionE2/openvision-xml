@@ -39,8 +39,8 @@ jobs:
       script:
         - popd
         - python -m compileall .
-    - stage: america
-      script: python lyngsat-america.py
+    - stage: atlantic
+      script: python lyngsat-atlantic.py
     - stage: deploy
       script:
         - popd

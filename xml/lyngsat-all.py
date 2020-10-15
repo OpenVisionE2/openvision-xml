@@ -99,10 +99,7 @@ class Lyngsat(object):
 
     def save(self, filename):
         """ saves the satellites xml to the given file """
-        if filename == '-':
-            print(str(self))
-        else:
-            open(filename, "w").write(str(self))
+        open(filename, "w").write(str(self))
 
     def get_urls(self):
         """ returns all url parsed on the given regions """
