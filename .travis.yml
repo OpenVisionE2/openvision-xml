@@ -32,7 +32,6 @@ install:
 jobs:
   include:
     - stage: python
-
       script: python -m compileall .
     - stage: all
       script: python xml/lyngsat-all.py
