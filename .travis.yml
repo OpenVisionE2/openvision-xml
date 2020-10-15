@@ -32,9 +32,18 @@ install:
 jobs:
   include:
     - stage: python
+
       script: python -m compileall .
+    - stage: all
+      script: python xml/lyngsat-all.py
+    - stage: america
+      script: python xml/lyngsat-america.py
+    - stage: asia
+      script: python xml/lyngsat-asia.py
     - stage: atlantic
       script: python xml/lyngsat-atlantic.py
+    - stage: europe
+      script: python xml/lyngsat-europe.py
 
 after_sucess:
 - ./build.sh
