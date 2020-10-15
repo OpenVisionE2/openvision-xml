@@ -41,7 +41,6 @@ jobs:
         - python -m compileall .
     - stage: atlantic
       script: python lyngsat-atlantic.py
-    - stage: deploy
-      script:
-        - popd
-        - ./build.sh
+
+after_sucess:
+- ./build.sh
