@@ -6,9 +6,9 @@ get_files() {
   python convert-iso-639-3.py
   cd ..
   cd xml
-  wget -O atsc.xml  https://raw.githubusercontent.com/oe-alliance/oe-alliance-tuxbox-common/master/src/atsc.xml
-  wget -O cables.xml  https://raw.githubusercontent.com/oe-alliance/oe-alliance-tuxbox-common/master/src/cables.xml
-  wget -O terrestrial.xml  https://raw.githubusercontent.com/oe-alliance/oe-alliance-tuxbox-common/master/src/terrestrial.xml
+  wget -O atsc.xml https://raw.githubusercontent.com/oe-alliance/oe-alliance-tuxbox-common/master/src/atsc.xml
+  wget -O cables.xml https://raw.githubusercontent.com/oe-alliance/oe-alliance-tuxbox-common/master/src/cables.xml
+  wget -O terrestrial.xml https://raw.githubusercontent.com/oe-alliance/oe-alliance-tuxbox-common/master/src/terrestrial.xml
 }
 
 setup_git() {
@@ -17,7 +17,6 @@ setup_git() {
 }
 
 commit_files() {
-  git checkout master
   git add -u
   git add *
   git commit --message "Travis build: $TRAVIS_BUILD_NUMBER"
