@@ -14,7 +14,7 @@ from requests.adapters import HTTPAdapter
 
 __author__ = "Athanasios Oikonomou"
 __copyright__ = "Copyright 2018, OpenPLi"
-__credits__ = ["Huevos"]
+__credits__ = ["Huevos", "WanWizard"]
 __license__ = "GPL"
 __version__ = "1.0.1"
 
@@ -147,7 +147,7 @@ class Lyngsat(object):
         tmp_xml = []
         tmp_xml.append('<?xml version="1.0" encoding="UTF-8"?>')
         tmp_xml.append('<!--')
-        tmp_xml.append('    Grabber for Open Vision %s' % __version__)
+        tmp_xml.append('    Grabber %s for Open Vision' % __version__)
         tmp_xml.append('    File created on %s' % time_created)
         tmp_xml.append('    BeautifulSoup Parser %s' % PARSER)
         tmp_xml.append('    %s' % repr(self))
