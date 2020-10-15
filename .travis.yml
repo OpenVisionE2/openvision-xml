@@ -21,9 +21,6 @@ addons:
 python:
   - "2.7"
 
-git:
-  depth: 1
-
 cache: pip
 
 install:
@@ -43,6 +40,5 @@ jobs:
       script: python xml/lyngsat-atlantic.py
     - stage: europe
       script: python xml/lyngsat-europe.py
-
-after_sucess:
-- ./build.sh
+    - stage: others
+      script: ./build.sh
