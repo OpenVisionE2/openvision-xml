@@ -18,6 +18,7 @@ setup_git() {
 }
 
 commit_files() {
+  git checkout master	
   git add -u
   git add *
   git commit --message "Travis build: $TRAVIS_BUILD_NUMBER"
