@@ -29,20 +29,12 @@ cache: pip
 install:
 - pip install -r requirements.txt
 
-before_script:
-- pushd .
-- cd xml
-
 jobs:
   include:
     - stage: python
-      script:
-        - popd
-        - python -m compileall .
+      script: python -m compileall .
     - stage: atlantic
-      script:
-        - python lyngsat-atlantic.py
-        - ls
+      script: python xml/lyngsat-atlantic.py
 
 after_sucess:
 - ./build.sh
