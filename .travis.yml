@@ -40,7 +40,9 @@ jobs:
         - popd
         - python -m compileall .
     - stage: atlantic
-      script: python lyngsat-atlantic.py
+      script:
+        - python lyngsat-atlantic.py
+        - ls
 
 after_sucess:
 - ./build.sh
