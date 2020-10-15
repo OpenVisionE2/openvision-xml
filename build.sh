@@ -5,6 +5,7 @@ get_files() {
   wget -O iso-639-3.tab http://www-01.sil.org/iso639-3/iso-639-3.tab
   python convert-iso-639-3.py
   cd ..
+  mv -f *.xml xml
   cd xml
   wget -O atsc.xml https://raw.githubusercontent.com/oe-alliance/oe-alliance-tuxbox-common/master/src/atsc.xml
   wget -O cables.xml https://raw.githubusercontent.com/oe-alliance/oe-alliance-tuxbox-common/master/src/cables.xml
