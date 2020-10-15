@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
     Grabber 1.0.1 for Open Vision
-    File created on 2020-10-15T09:03:57
+    File created on 2020-10-15T13:56:46
     BeautifulSoup Parser html5lib
     Lyngsat(regions=asia, urls=52, satellites=77)
 -->
@@ -590,6 +590,7 @@
 	<sat name="108.2E C-band SES 7/9 &amp; Telkom 4" flags="1" position="1083">
 		<transponder frequency="3720000" symbol_rate="32727000" polarization="0" fec_inner="6" system="1" modulation="1" />
 		<transponder frequency="3745000" symbol_rate="4545000" polarization="0" fec_inner="8" system="0" modulation="1" />
+		<transponder frequency="3758000" symbol_rate="6000000" polarization="0" fec_inner="3" system="1" modulation="1" />
 		<transponder frequency="3776000" symbol_rate="1700000" polarization="1" fec_inner="3" system="0" modulation="1" />
 		<transponder frequency="3778000" symbol_rate="2500000" polarization="1" fec_inner="8" system="0" modulation="1" />
 		<transponder frequency="3824000" symbol_rate="3636000" polarization="0" fec_inner="2" system="0" modulation="1" />
