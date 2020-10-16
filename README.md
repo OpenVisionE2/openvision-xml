@@ -9,10 +9,10 @@ XML:
 - atsc.xml (OE-A version)
 - cables.xml (OE-A version)
 - satellites.xml (all-default)
-- satellites-asia.xml (160°W-73°E)
-- satellites-europe.xml (73°E-0°E)
-- satellites-atlantic.xml (0°W-61°W)
 - satellites-america.xml (61°W-160°W)
+- satellites-asia.xml (160°W-73°E)
+- satellites-atlantic.xml (0°W-61°W)
+- satellites-europe.xml (73°E-0°E)
 - terrestrial.xml (OE-A version)
 
 DATA:
