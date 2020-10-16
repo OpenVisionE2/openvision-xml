@@ -2,9 +2,7 @@ openvision-xml [![Build Status](https://travis-ci.org/OpenVisionE2/openvision-xm
 ==============
 Open Vision xml files
 
-==========================
-Automatic updates (weekly)
-==========================
+# Automatic updates (weekly)
 
 XML:
 
@@ -21,9 +19,7 @@ DATA:
 
 - iso-639-3.pck
 
-==============
-Manual updates
-==============
+# Manual updates
 
 - unicable.xml
 
