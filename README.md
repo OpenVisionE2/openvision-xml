@@ -2,11 +2,11 @@ openvision-xml [![Build Status](https://travis-ci.org/OpenVisionE2/openvision-xm
 ==============
 Open Vision xml files
 
-satellites.xml
-satellites-asia.xml (160°W-73°E)
-satellites-europe.xml (73°E-0°E)
-satellites-atlantic.xml (0°W-61°W)
-satellites-america.xml (61°W-160°W)
+* satellites.xml (all-default)
+* satellites-asia.xml (160°W-73°E)
+* satellites-europe.xml (73°E-0°E)
+* satellites-atlantic.xml (0°W-61°W)
+* satellites-america.xml (61°W-160°W)
 
 Above files could be installed via our own version of xmlUpdate plugin: https://github.com/OpenVisionE2/alliance-plugins/tree/master/xmlUpdate/src
 
