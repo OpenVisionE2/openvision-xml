@@ -23,9 +23,9 @@ DATA:
 
 - unicable.xml
 
-Above files could be installed via our own version of xmlUpdate plugin: https://github.com/OpenVisionE2/alliance-plugins/tree/master/xmlUpdate/src
+satellites files could be installed via our own version of xmlUpdate plugin: https://github.com/OpenVisionE2/alliance-plugins/tree/master/xmlUpdate/src
 
-We should thank some great enigma2 developers too:
+# Thanks to
 
 - athoik: https://github.com/athoik
 - WanWizard: https://github.com/WanWizard
