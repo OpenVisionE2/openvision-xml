@@ -1,5 +1,8 @@
 #!/bin/sh
 
+# Script by Persian Prince for https://github.com/OpenVisionE2
+# You're not allowed to remove my copyright or reuse this script without putting this header.
+
 get_files() {
   cd data
   wget -O iso-639-3.tab http://www-01.sil.org/iso639-3/iso-639-3.tab
@@ -15,7 +18,7 @@ get_files() {
 
 setup_git() {
   git config --global user.email "bot@openvision.tech"
-  git config --global user.name "Open Vision bot"
+  git config --global user.name "Open Vision xml bot"
 }
 
 commit_files() {

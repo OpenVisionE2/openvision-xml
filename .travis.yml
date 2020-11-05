@@ -26,6 +26,9 @@ cache: pip
 install:
 - pip install -r requirements.txt
 
+git:
+  depth: 10
+
 jobs:
   include:
     - stage: python
@@ -41,5 +44,5 @@ jobs:
     - stage: europe
       script: python xml/lyngsat-europe.py
 
-after_sucess:
+after_success:
 - ./build.sh
