@@ -26,6 +26,9 @@ cache: pip
 install:
 - pip install -r requirements.txt
 
+git:
+  depth: 1
+
 jobs:
   include:
     - stage: python
