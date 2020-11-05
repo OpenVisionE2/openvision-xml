@@ -27,7 +27,7 @@ install:
 - pip install -r requirements.txt
 
 git:
-  depth: 1
+  depth: 10
 
 jobs:
   include:
