@@ -25,7 +25,7 @@ commit_files() {
   git checkout master
   git add -u
   git add *
-  git commit --message "Travis build: $TRAVIS_BUILD_NUMBER"
+  git commit -m "Travis build: $TRAVIS_BUILD_NUMBER"
 }
 
 upload_files() {
