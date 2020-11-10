@@ -23,7 +23,9 @@ DATA:
 
 - unicable.xml
 
-satellites files could be installed via our own version of xmlUpdate plugin: https://github.com/OpenVisionE2/alliance-plugins/tree/master/xmlUpdate/src
+# xmlUpdate plugin
+
+All xml files could be installed via our own version of xmlUpdate plugin: https://github.com/OpenVisionE2/alliance-plugins/tree/master/xmlUpdate/src
 
 # Thanks to
 
