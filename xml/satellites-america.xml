@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
     Grabber 1.0.1 for Open Vision
-    File created on 2020-11-05T10:04:43
+    File created on 2020-11-12T10:46:25
     BeautifulSoup Parser html5lib
     Lyngsat(regions=america, urls=38, satellites=55)
 -->
@@ -362,6 +362,7 @@
 		<transponder frequency="4060000" symbol_rate="30000000" polarization="0" fec_inner="6" system="1" modulation="2" />
 		<transponder frequency="4080000" symbol_rate="30000000" polarization="1" fec_inner="6" system="1" modulation="2" />
 		<transponder frequency="4100000" symbol_rate="30000000" polarization="0" fec_inner="6" system="1" modulation="2" />
+		<transponder frequency="4140000" symbol_rate="30000000" polarization="0" fec_inner="3" system="1" modulation="2" />
 		<transponder frequency="4160000" symbol_rate="30000000" polarization="1" fec_inner="6" system="1" modulation="2" />
 	</sat>
 	<sat name="105.0W Ku-band AMC 15 &amp; EchoStar 105/SES 11" flags="1" position="-1050">
@@ -731,7 +732,6 @@
 		<transponder frequency="12112000" symbol_rate="4800000" polarization="1" fec_inner="3" system="1" modulation="2" />
 	</sat>
 	<sat name="70.0W C-band Star One C2/C4" flags="1" position="-701">
-		<transponder frequency="3637000" symbol_rate="2500000" polarization="0" fec_inner="4" system="0" modulation="1" />
 		<transponder frequency="3645000" symbol_rate="3750000" polarization="1" fec_inner="3" system="1" modulation="2" />
 		<transponder frequency="3648000" symbol_rate="2170000" polarization="1" fec_inner="3" system="0" modulation="1" />
 		<transponder frequency="3649000" symbol_rate="7500000" polarization="0" fec_inner="2" system="1" modulation="2" />
@@ -774,6 +774,7 @@
 		<transponder frequency="3955000" symbol_rate="4400000" polarization="0" fec_inner="3" system="0" modulation="1" />
 		<transponder frequency="3959000" symbol_rate="1875000" polarization="0" fec_inner="2" system="0" modulation="1" />
 		<transponder frequency="3965000" symbol_rate="4069000" polarization="1" fec_inner="2" system="0" modulation="1" />
+		<transponder frequency="3965000" symbol_rate="7500000" polarization="0" fec_inner="2" system="1" modulation="2" />
 		<transponder frequency="3970000" symbol_rate="1852000" polarization="1" fec_inner="6" system="0" modulation="1" />
 		<transponder frequency="3973000" symbol_rate="7500000" polarization="0" fec_inner="2" system="1" modulation="2" />
 		<transponder frequency="3974000" symbol_rate="4166000" polarization="1" fec_inner="3" system="1" modulation="2" />
@@ -833,9 +834,9 @@
 		<transponder frequency="12038000" symbol_rate="4309000" polarization="0" fec_inner="4" system="1" modulation="1" />
 	</sat>
 	<sat name="65.0W C-band Star One C1 &amp; Eutelsat 65 West A" flags="1" position="-651">
-		<transponder frequency="3744000" symbol_rate="4000000" polarization="0" fec_inner="3" system="1" modulation="2" />
 		<transponder frequency="3792000" symbol_rate="3393000" polarization="1" fec_inner="3" system="0" modulation="1" />
 		<transponder frequency="3825000" symbol_rate="3750000" polarization="0" fec_inner="2" system="1" modulation="2" />
+		<transponder frequency="3854000" symbol_rate="2500000" polarization="0" fec_inner="3" system="1" modulation="2" />
 		<transponder frequency="3858000" symbol_rate="2170000" polarization="0" fec_inner="8" system="0" modulation="1" />
 		<transponder frequency="3950000" symbol_rate="3333000" polarization="1" fec_inner="3" system="1" modulation="2" />
 		<transponder frequency="3956000" symbol_rate="4289000" polarization="1" fec_inner="3" system="0" modulation="1" />
@@ -858,7 +859,6 @@
 		<transponder frequency="4704000" symbol_rate="7072000" polarization="1" fec_inner="3" system="1" modulation="2" />
 		<transponder frequency="4705000" symbol_rate="5000000" polarization="0" fec_inner="3" system="1" modulation="2" />
 		<transponder frequency="4712000" symbol_rate="4780000" polarization="0" fec_inner="3" system="1" modulation="2" />
-		<transponder frequency="4733000" symbol_rate="4583000" polarization="0" fec_inner="3" system="1" modulation="2" />
 	</sat>
 	<sat name="65.0W Ku-band Star One C1 &amp; Eutelsat 65 West A" flags="1" position="-650">
 		<transponder frequency="10760000" symbol_rate="30000000" polarization="1" fec_inner="2" system="1" modulation="2" />
