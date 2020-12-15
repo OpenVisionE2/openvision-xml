@@ -18,6 +18,7 @@ XML:
 DATA:
 
 - iso-639-3.pck
+- timezone.xml (OE-A version)
 
 # Manual updates
 
