@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
     Grabber 1.0.1 for Open Vision
-    File created on 2021-01-21T12:08:29
+    File created on 2021-01-28T20:24:06
     BeautifulSoup Parser html5lib
     Lyngsat(regions=atlantic, urls=27, satellites=40)
 -->
@@ -212,7 +212,6 @@
 		<transponder frequency="3877000" symbol_rate="1546000" polarization="1" fec_inner="3" system="0" modulation="1" />
 		<transponder frequency="3895000" symbol_rate="20200000" polarization="1" fec_inner="2" system="1" modulation="2" />
 		<transponder frequency="3902000" symbol_rate="30000000" polarization="0" fec_inner="3" system="1" modulation="1" />
-		<transponder frequency="3927000" symbol_rate="30000000" polarization="1" fec_inner="6" system="0" modulation="1" />
 		<transponder frequency="3929000" symbol_rate="14060000" polarization="0" fec_inner="3" system="1" modulation="2" />
 		<transponder frequency="3945000" symbol_rate="5000000" polarization="0" fec_inner="3" system="1" modulation="2" />
 		<transponder frequency="3962000" symbol_rate="15000000" polarization="1" fec_inner="3" system="1" modulation="2" />
@@ -258,7 +257,6 @@
 		<transponder frequency="3652000" symbol_rate="4000000" polarization="2" fec_inner="6" system="0" modulation="1" />
 		<transponder frequency="3657000" symbol_rate="4166000" polarization="2" fec_inner="3" system="1" modulation="2" />
 		<transponder frequency="3660000" symbol_rate="1250000" polarization="2" fec_inner="3" system="1" modulation="2" />
-		<transponder frequency="3689000" symbol_rate="5180000" polarization="3" fec_inner="3" system="0" modulation="1" />
 		<transponder frequency="3695000" symbol_rate="2963000" polarization="2" fec_inner="3" system="1" modulation="1" />
 		<transponder frequency="3710000" symbol_rate="8330000" polarization="2" fec_inner="3" system="1" modulation="1" />
 		<transponder frequency="3723000" symbol_rate="30000000" polarization="3" fec_inner="6" system="1" modulation="2" />
