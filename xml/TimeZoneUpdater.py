@@ -14,7 +14,7 @@
 # 	license, original author and this message must be retained at
 # 	all times.
 #
-#	This code was developed as open source software it should not
+# 	This code was developed as open source software it should not
 # 	be commercially distributed or included in any commercial
 # 	software or used for commercial benefit.
 #
@@ -25,6 +25,7 @@
 #
 # 	See <https://www.gnu.org/licenses/>.
 
+from six import PY2
 from sys import argv
 from time import gmtime, strftime
 try:
@@ -40,7 +41,7 @@ FILE_HEADER = """<?xml version="1.0" encoding="UTF-8"?>
 <!--
 	This data has been extracted from the official IANA data
 	as distributed by TimezonesDB (https://timezonedb.com/) in
-	%s by TimeZoneUpdater tool written by IanSav.
+	%s by a program, TimeZoneUpdater, written by IanSav.
 
 	IMPORTANT NOTE: It is preferred that this file not be edited
 	except to bring it into line with future IANA updates.  If this
@@ -106,8 +107,8 @@ if len(argv) < 2:
 	exit(1)
 timeZoneKey = argv[1]
 outputFile = argv[2] if len(argv) > 2 else OUTPUT_FILE
+print("Fetching time zone data from '%s'..." % (TIMEZONEDB_FETCH % "<HIDDEN>"))
 try:
-	print("Fetching data from %s\n" % TIMEZONEDB_FETCH)
 	timeZoneData = urlopen(TIMEZONEDB_FETCH % timeZoneKey).read()
 except Exception as err:
 	print("Error: Unable to fetch current time zone data! (%s)" % str(err))
@@ -120,8 +121,8 @@ if status != "OK":
 	exit(3)
 timeZoneDom = timeZoneDom.find("zones")
 timeZoneData = {}
+print("Preparing time zone file...")
 for zoneElement in timeZoneDom.findall("zone"):
-	print("Preparing timezone file for enigma2")
 	countryName = zoneElement.find("countryName").text
 	zoneName = zoneElement.find("zoneName").text
 	gmtOffset = zoneElement.find("gmtOffset").text
@@ -148,15 +149,15 @@ for zoneElement in timeZoneDom.findall("zone"):
 timeZones = []
 for timeZoneItem in sorted(list(timeZoneData.keys())):
 	timeZones.append(timeZoneData[timeZoneItem])
+print("Creating and writing time zone file...")
 try:
 	with open(outputFile, "w") as fd:
-		print("\nCreating timezone file for enigma2\n")
 		fd.write(FILE_HEADER % strftime("%d-%b-%Y", gmtime()))
 		fd.write("<timezone>\n")
-		fd.write("\n".join(timeZones).encode('utf8'))
+		fd.write("\n".join(timeZones).encode("UTF-8", errors="ignore") if PY2 else "\n".join(timeZones))
 		fd.write("\n</timezone>\n")
 except (IOError, OSError) as err:
 	print("Error %d: Unable to create time zone file '%s'!  (%s)" % (err.errno, outputFile, err.strerror))
 	exit(4)
-print("Time zone file '%s' created." % outputFile)
+print("Time zone file '%s' created successfully." % outputFile)
 exit(0)
