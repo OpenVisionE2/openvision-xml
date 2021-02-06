@@ -23,7 +23,7 @@ SYSTEMS = {'DVB-S': 0, 'DVB-S2': 1, 'DSS': -1, 'ISDB': -1,
            'Digicipher 2': -1, 'ABS': -1}
 FECS = {'auto': 0, '1/2': 1, '2/3': 2, '3/4': 3, '3/5': 4, '4/5':
         5, '5/6': 6, '6/7': 7, '7/8': 8, '8/9': 9, '9/10': 10, 'none': 15}
-MODULATIONS = {'auto': 0, 'QPSK': 1, '8PSK':2, 'QAM16': 3, '16APSK': 4,
+MODULATIONS = {'auto': 0, 'QPSK': 1, '8PSK': 2, 'QAM16': 3, '16APSK': 4,
                '32APSK': 5, '8PSK Turbo': -1, 'Turbo': -1}
 SLEEP_TIMEOUT = 10
 PARSER = 'html5lib'
