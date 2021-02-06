@@ -468,7 +468,7 @@ class Transponder(object):
         ssys = rev(SYSTEMS, self.system)
         sfec = rev(FECS, self.fec)
         smod = rev(MODULATIONS, self.modulation)
-        params = (self.freq/1000.0, spol, ssys, self.symbol_rate/1000, sfec,
+        params = (self.freq / 1000.0, spol, ssys, self.symbol_rate / 1000, sfec,
                   smod, self.is_id, self.pls_code, self.t2mi_plp_id,
                   self.t2mi_pid)
         return 'Transponder(%g %s %s SR %d %s %s MIS %d Gold %d T2MI %d PID %d)' % params
