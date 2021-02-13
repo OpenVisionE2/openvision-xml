@@ -16,13 +16,15 @@ __author__ = "Athanasios Oikonomou"
 __copyright__ = "Copyright 2018, OpenPLi"
 __credits__ = ["Huevos", "WanWizard", "Petrkr"]
 __license__ = "GPL"
-__version__ = "1.0.2"
+__version__ = "10.2.0"
 
 POLARISATION = {'H': 0, 'V': 1, 'L': 2, 'R': 3}
 SYSTEMS = {'DVB-S': 0, 'DVB-S2': 1, 'DSS': -1, 'ISDB': -1,
            'Digicipher 2': -1, 'ABS': -1}
+# Needs to be compatible with https://github.com/OpenVisionE2/enigma2-openvision/blob/develop/lib/dvb/frontendparms.h#L42~L45
 FECS = {'auto': 0, '1/2': 1, '2/3': 2, '3/4': 3, '5/6': 4, '7/8': 5,
         '8/9': 6, '3/5': 7, '4/5': 8, '9/10': 9, '6/7': 10, 'none': 15}
+# frontendparms.h may be wrong but if we change it our files will be incompatible with other images.
 MODULATIONS = {'auto': 0, 'QPSK': 1, '8PSK':2, 'QAM16': 3, '16APSK': 4,
                '32APSK': 5, '8PSK Turbo': -1, 'Turbo': -1}
 SLEEP_TIMEOUT = 10

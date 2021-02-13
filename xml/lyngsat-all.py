@@ -14,15 +14,17 @@ from requests.adapters import HTTPAdapter
 
 __author__ = "Athanasios Oikonomou"
 __copyright__ = "Copyright 2018, OpenPLi"
-__credits__ = ["Huevos", "WanWizard"]
+__credits__ = ["Huevos", "WanWizard", "Petrkr"]
 __license__ = "GPL"
-__version__ = "1.0.1"
+__version__ = "10.2.0"
 
 POLARISATION = {'H': 0, 'V': 1, 'L': 2, 'R': 3}
 SYSTEMS = {'DVB-S': 0, 'DVB-S2': 1, 'DSS': -1, 'ISDB': -1,
            'Digicipher 2': -1, 'ABS': -1}
+# Needs to be compatible with https://github.com/OpenVisionE2/enigma2-openvision/blob/develop/lib/dvb/frontendparms.h#L42~L45
 FECS = {'auto': 0, '1/2': 1, '2/3': 2, '3/4': 3, '5/6': 4, '7/8': 5,
         '8/9': 6, '3/5': 7, '4/5': 8, '9/10': 9, '6/7': 10, 'none': 15}
+# frontendparms.h may be wrong but if we change it our files will be incompatible with other images.
 MODULATIONS = {'auto': 0, 'QPSK': 1, '8PSK':2, 'QAM16': 3, '16APSK': 4,
                '32APSK': 5, '8PSK Turbo': -1, 'Turbo': -1}
 SLEEP_TIMEOUT = 10
@@ -317,14 +319,14 @@ class Transponder(object):
     __is_feed = False
 
     def __init__(self, values):
-        if len(values) != 9:
+        if len(values) != 11:
             self.__is_valid = False
             return
         if not values[1].find('b'):  # frequency is always bold
             self.__is_valid = False
             return
         # feed, internet/interactive
-        if values[3].attrs.get('bgcolor', '') in ('#d0d0d0', '#ffaaff'):
+        if values[4].attrs.get('bgcolor', '') in ('#d0d0d0', '#ffaaff'):
             self.__is_feed = True
         self.modulation = 1  # Modulation_QPSK
         self.system = 0  # System_DVB_S
@@ -422,18 +424,18 @@ class Transponder(object):
 
     def __get_system_mis_pls(self, values):
         """ parse the system, mis, pls and plp from the fifth column of row """
-        smp = values[5].find_all(text=True)
+        smp = values[2].find_all(text=True)
         if len(smp) < 1:
             return
         self.system = SYSTEMS.get(smp[0], 0)
         safeint = lambda i: int(''.join(c for c in i if c.isdigit()))
         for line in smp[1:]:
-            if 'stream ' in line:
+            if 'Stream ' in line:
                 self.is_id = safeint(line[7:])
-            elif 'PLS gold ' in line:
-                self.pls_code = safeint(line[9:])
-            elif 'PLS root ' in line:
-                self.pls_code = root2gold(safeint(line[9:]))
+            elif 'Gold ' in line:
+                self.pls_code = safeint(line[5:])
+            elif 'Root ' in line:
+                self.pls_code = root2gold(safeint(line[5:]))
             elif 'PLP ' in line:
                 self.t2mi_plp_id = safeint(line[4:])
 
@@ -441,15 +443,20 @@ class Transponder(object):
         """
         parse the symbol rate and fec and modulation from the 6th column of row
         """
-        sfm = values[6].find_all(text=True)
+        sfm = values[2].find_all(text=True)
         if len(sfm) < 1:
             return
-        if '-' in sfm[0] and '/' in sfm[0]:
-            srate, fec = sfm[0].split('-')
-            self.symbol_rate = int(srate) * 1000
-            self.fec = FECS.get(fec, 0)
-        if len(sfm) >= 2:
-            self.modulation = MODULATIONS.get(sfm[1].strip(), 1)
+
+        for val in sfm[1:4]:
+            if val.isnumeric():
+                self.symbol_rate = int(val) * 1000
+                continue
+
+            if '/' in val:
+                self.fec = FECS.get(val, 0)
+                continue
+
+            self.modulation = MODULATIONS.get(val.strip(), 1)
 
     def __hash__(self):
         return hash((self.freq, self.symbol_rate, self.pol, self.fec,
