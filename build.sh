@@ -7,6 +7,7 @@ get_files() {
   cd data
   wget -O iso-639-3.tab http://www-01.sil.org/iso639-3/iso-639-3.tab
   python convert-iso-639-3.py
+  sleep 1
   cd ..
   mv -f *.xml xml
   cd xml
@@ -14,6 +15,7 @@ get_files() {
   wget -O cables.xml https://raw.githubusercontent.com/oe-alliance/oe-alliance-tuxbox-common/master/src/cables.xml
   wget -O terrestrial.xml https://raw.githubusercontent.com/oe-alliance/oe-alliance-tuxbox-common/master/src/terrestrial.xml
   python TimeZoneUpdater.py ${TimezonesDB_API} timezone.xml
+  sleep 1
   cd ..
 }
 
@@ -23,7 +25,9 @@ setup_git() {
 }
 
 commit_files() {
+  sleep 1
   git checkout master
+  sleep 1
   git add -u
   git add *
   git commit -m "Travis build: $TRAVIS_BUILD_NUMBER"
