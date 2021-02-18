@@ -207,6 +207,7 @@ class SatelliteNameError(Exception):
     """ We are going to raise this if parsing satellite name fails."""
     pass
 
+
 class Satellites(object):
     """
     Parse satellites on the given URL handling the fixed positions
