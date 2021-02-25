@@ -3,7 +3,7 @@
 <!--
 	This data has been extracted from the official IANA data
 	as distributed by TimezonesDB (https://timezonedb.com/) on
-	16-Feb-2021 by the program TimeZoneUpdater written by IanSav.
+	February 2021 by the program TimeZoneUpdater written by IanSav.
 
 	IMPORTANT NOTE: It is preferred that this file not be edited
 	except to bring it into line with future IANA updates.  If this
@@ -278,7 +278,6 @@
 	<zone name="(GMT+02:00) Russia: Kaliningrad" zone="Europe/Kaliningrad" />
 	<zone name="(GMT+02:00) Rwanda" zone="Africa/Kigali" />
 	<zone name="(GMT+02:00) South Africa" zone="Africa/Johannesburg" />
-	<zone name="(GMT+02:00) South Sudan" zone="Africa/Juba" />
 	<zone name="(GMT+02:00) Sudan" zone="Africa/Khartoum" />
 	<zone name="(GMT+02:00) Swaziland" zone="Africa/Mbabane" />
 	<zone name="(GMT+02:00) Syria" zone="Asia/Damascus" />
@@ -302,9 +301,9 @@
 	<zone name="(GMT+03:00) Qatar" zone="Asia/Qatar" />
 	<zone name="(GMT+03:00) Russia: Kirov" zone="Europe/Kirov" />
 	<zone name="(GMT+03:00) Russia: Moscow" zone="Europe/Moscow" />
-	<zone name="(GMT+03:00) Russia: Volgograd" zone="Europe/Volgograd" />
 	<zone name="(GMT+03:00) Saudi Arabia" zone="Asia/Riyadh" />
 	<zone name="(GMT+03:00) Somalia" zone="Africa/Mogadishu" />
+	<zone name="(GMT+03:00) South Sudan" zone="Africa/Juba" />
 	<zone name="(GMT+03:00) Tanzania" zone="Africa/Dar_es_Salaam" />
 	<zone name="(GMT+03:00) Turkey" zone="Europe/Istanbul" />
 	<zone name="(GMT+03:00) Uganda" zone="Africa/Kampala" />
@@ -324,6 +323,7 @@
 	<zone name="(GMT+04:00) Russia: Samara" zone="Europe/Samara" />
 	<zone name="(GMT+04:00) Russia: Saratov" zone="Europe/Saratov" />
 	<zone name="(GMT+04:00) Russia: Ulyanovsk" zone="Europe/Ulyanovsk" />
+	<zone name="(GMT+04:00) Russia: Volgograd" zone="Europe/Volgograd" />
 	<zone name="(GMT+04:00) Seychelles" zone="Indian/Mahe" />
 	<zone name="(GMT+04:00) United Arab Emirates" zone="Asia/Dubai" />
 	<zone name="(GMT+04:30) Afghanistan" zone="Asia/Kabul" />
@@ -395,6 +395,7 @@
 	<zone name="(GMT+09:30) Australia: Darwin" zone="Australia/Darwin" />
 	<zone name="(GMT+10:00) Antarctica: Dumont d'Urville" zone="Antarctica/DumontDUrville" />
 	<zone name="(GMT+10:00) Australia: Brisbane" zone="Australia/Brisbane" />
+	<zone name="(GMT+10:00) Australia: Currie (Deprecated use Hobart)" zone="Australia/Currie" />
 	<zone name="(GMT+10:00) Australia: Hobart" zone="Australia/Hobart" />
 	<zone name="(GMT+10:00) Australia: Lindeman Island" zone="Australia/Lindeman" />
 	<zone name="(GMT+10:00) Australia: Lord Howe Island" zone="Australia/Lord_Howe" />
