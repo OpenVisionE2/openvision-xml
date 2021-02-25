@@ -40,15 +40,15 @@ jobs:
     - stage: timezone
       script: ./timezone.sh
     - stage: america
-      script: python xml/lyngsat-america.py
+      script: ./lyngsat-america.sh
     - stage: asia
-      script: python xml/lyngsat-asia.py
+      script: ./lyngsat-asia.sh
     - stage: atlantic
-      script: python xml/lyngsat-atlantic.py
+      script: ./lyngsat-atlantic.sh
     - stage: europe
-      script: python xml/lyngsat-europe.py
+      script: ./lyngsat-europe.sh
     - stage: all
-      script: python xml/lyngsat-all.py
+      script: ./lyngsat-all.sh
 
 after_success:
 - ./build.sh
