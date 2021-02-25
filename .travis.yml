@@ -33,6 +33,8 @@ jobs:
   include:
     - stage: python
       script: python -m compileall .
+    - stage: timezone
+      script: ./TimeZoneUpdater.sh
     - stage: america
       script: python xml/lyngsat-america.py
     - stage: asia
