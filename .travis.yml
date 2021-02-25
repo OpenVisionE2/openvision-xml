@@ -33,8 +33,12 @@ jobs:
   include:
     - stage: python
       script: python -m compileall .
+    - stage: iso-639-3
+      script: ./iso-639-3.sh
+    - stage: atsc-cables-terrestrial
+      script: ./atsc-cables-terrestrial.sh
     - stage: timezone
-      script: ./TimeZoneUpdater.sh
+      script: ./timezone.sh
     - stage: america
       script: python xml/lyngsat-america.py
     - stage: asia
