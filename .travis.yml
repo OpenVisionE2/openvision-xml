@@ -42,7 +42,55 @@ jobs:
     - stage: atlantic
       script: python xml/lyngsat-atlantic.py
     - stage: europe
+      script: python xml/lyngsat-europe.pylanguage: python
+
+sudo: required
+dist: bionic
+
+addons:
+  apt:
+    packages:
+    - git
+    - build-essential
+    - automake
+    - libtool
+    - python-dev
+    - python-bs4
+    - python-beautifulsoup
+    - python-requests
+    - python-html5lib
+    - gettext
+    - swig
+
+python:
+  - "2.7"
+
+cache: pip
+
+install:
+- pip install -r requirements.txt
+
+git:
+  depth: 10
+
+jobs:
+  include:
+    - stage: python
+      script: python -m compileall .
+    - stage: america
+      script: python xml/lyngsat-america.py
+    - stage: asia
+      script: python xml/lyngsat-asia.py
+    - stage: atlantic
+      script: python xml/lyngsat-atlantic.py
+    - stage: europe
       script: python xml/lyngsat-europe.py
+    - stage: all
+      script: python xml/lyngsat-all.py
+
+after_success:
+- ./build.sh
+
 
 after_success:
 - ./build.sh
