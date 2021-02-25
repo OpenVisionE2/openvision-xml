@@ -25,9 +25,7 @@ setup_git() {
 }
 
 commit_files() {
-  sleep 1
   git checkout master
-  sleep 1
   git add -u
   git add *
   git commit -m "Travis build: $TRAVIS_BUILD_NUMBER"
