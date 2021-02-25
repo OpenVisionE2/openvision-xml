@@ -145,7 +145,7 @@ class Lyngsat(object):
         return 'Lyngsat(regions=%s, urls=%d, satellites=%d)' % params
 
     def __str__(self):
-        time_created = time.strftime("%Y-%m-%dT%H:%M:%S", time.gmtime())
+        time_created = time.strftime("%Y-%m-%d", time.gmtime())
         tmp_xml = []
         tmp_xml.append('<?xml version="1.0" encoding="UTF-8"?>')
         tmp_xml.append('<!--')
