@@ -33,8 +33,6 @@ jobs:
   include:
     - stage: python
       script: python -m compileall .
-    - stage: all
-      script: python xml/lyngsat-all.py
     - stage: america
       script: python xml/lyngsat-america.py
     - stage: asia
@@ -43,6 +41,8 @@ jobs:
       script: python xml/lyngsat-atlantic.py
     - stage: europe
       script: python xml/lyngsat-europe.py
+    - stage: all
+      script: python xml/lyngsat-all.py
 
 after_success:
 - ./build.sh
