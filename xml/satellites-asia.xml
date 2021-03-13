@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
     Grabber 10.2.0 for Open Vision
-    File created on 2021-03-06
+    File created on 2021-03-13
     BeautifulSoup Parser html5lib
     Lyngsat(regions=asia, urls=53, satellites=84)
 -->
@@ -74,6 +74,7 @@
 		<transponder frequency="12575000" symbol_rate="1600000" polarization="1" fec_inner="2" system="1" modulation="1" />
 	</sat>
 	<sat name="76.5E C-band Apstar 7" flags="1" position="766">
+		<transponder frequency="3634000" symbol_rate="6000000" polarization="0" fec_inner="7" system="1" modulation="2" />
 		<transponder frequency="3639000" symbol_rate="1600000" polarization="0" fec_inner="7" system="1" modulation="2" />
 		<transponder frequency="3690000" symbol_rate="3600000" polarization="0" fec_inner="2" system="1" modulation="2" />
 		<transponder frequency="3749000" symbol_rate="3070000" polarization="0" fec_inner="3" system="1" modulation="1" />
@@ -179,6 +180,7 @@
 		<transponder frequency="3725000" symbol_rate="30000000" polarization="0" fec_inner="3" system="1" modulation="2" />
 		<transponder frequency="3750000" symbol_rate="2900000" polarization="1" fec_inner="3" system="0" modulation="1" />
 		<transponder frequency="3753000" symbol_rate="2900000" polarization="1" fec_inner="3" system="0" modulation="1" />
+		<transponder frequency="3756000" symbol_rate="15000000" polarization="0" fec_inner="0" system="1" modulation="2" />
 		<transponder frequency="3757000" symbol_rate="2900000" polarization="1" fec_inner="3" system="0" modulation="1" />
 		<transponder frequency="3767000" symbol_rate="3000000" polarization="0" fec_inner="3" system="1" modulation="1" />
 		<transponder frequency="3769000" symbol_rate="3000000" polarization="1" fec_inner="3" system="0" modulation="1" />
