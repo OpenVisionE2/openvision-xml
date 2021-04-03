@@ -3,7 +3,7 @@
 <!--
 	This data has been extracted from the official IANA data
 	as distributed by TimezonesDB (https://timezonedb.com/) on
-	March 2021 by the program TimeZoneUpdater written by IanSav.
+	April 2021 by the program TimeZoneUpdater written by IanSav.
 
 	IMPORTANT NOTE: It is preferred that this file not be edited
 	except to bring it into line with future IANA updates.  If this
@@ -176,7 +176,6 @@
 	<zone name="(GMT-01:00) Cape Verde" zone="Atlantic/Cape_Verde" />
 	<zone name="(GMT-01:00) Greenland: Scoresbysund" zone="America/Scoresbysund" />
 	<zone name="(GMT-01:00) Portugal: Azores" zone="Atlantic/Azores" />
-	<zone name="(GMT) Antarctica: Troll" zone="Antarctica/Troll" />
 	<zone name="(GMT) Burkina Faso" zone="Africa/Ouagadougou" />
 	<zone name="(GMT) Faroe Islands" zone="Atlantic/Faroe" />
 	<zone name="(GMT) Gambia" zone="Africa/Banjul" />
@@ -206,6 +205,7 @@
 	<zone name="(GMT+01:00) Algeria" zone="Africa/Algiers" />
 	<zone name="(GMT+01:00) Andorra" zone="Europe/Andorra" />
 	<zone name="(GMT+01:00) Angola" zone="Africa/Luanda" />
+	<zone name="(GMT+01:00) Antarctica: Troll" zone="Antarctica/Troll" />
 	<zone name="(GMT+01:00) Austria" zone="Europe/Vienna" />
 	<zone name="(GMT+01:00) Belgium" zone="Europe/Brussels" />
 	<zone name="(GMT+01:00) Benin" zone="Africa/Porto-Novo" />
