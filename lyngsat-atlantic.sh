@@ -1,6 +1,6 @@
 #!/bin/sh
 
 cd xml
-python lyngsat-atlantic.py
+python lyngsat.py -r atlantic -f satellites-atlantic.xml
 sleep 1
 cd ..

@@ -1,6 +1,6 @@
 #!/bin/sh
 
 cd xml
-python lyngsat-all.py
+python lyngsat.py
 sleep 1
 cd ..
