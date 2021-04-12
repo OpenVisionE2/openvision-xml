@@ -1,6 +1,6 @@
 #!/bin/sh
 
 cd xml
-python lyngsat-europe.py
+python lyngsat.py -r europe -f satellites-europe.xml
 sleep 1
 cd ..

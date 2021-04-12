@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 from __future__ import print_function
 """
-Lyngsat Grabber, downloads all available satellites and creates satellites-asia.xml
+Lyngsat Grabber, downloads all available satellites and creates satellites.xml
 """
 import re
 import sys
@@ -13,10 +13,10 @@ from bs4 import BeautifulSoup
 from requests.adapters import HTTPAdapter
 
 __author__ = "Athanasios Oikonomou"
-__copyright__ = "Copyright 2018, OpenPLi"
+__copyright__ = "Copyright 2021, OpenPLi, OpenVision"
 __credits__ = ["Huevos", "WanWizard", "Petrkr"]
 __license__ = "GPL"
-__version__ = "10.2.0"
+__version__ = "10.2.1"
 
 POLARISATION = {'H': 0, 'V': 1, 'L': 2, 'R': 3}
 SYSTEMS = {'DVB-S': 0, 'DVB-S2': 1, 'DSS': -1, 'ISDB': -1,
@@ -27,8 +27,15 @@ FECS = {'auto': 0, '1/2': 1, '2/3': 2, '3/4': 3, '5/6': 4, '7/8': 5,
 # frontendparms.h may be wrong but if we change it our files will be incompatible with other images.
 MODULATIONS = {'auto': 0, 'QPSK': 1, '8PSK': 2, 'QAM16': 3, '16APSK': 4,
                '32APSK': 5, '8PSK Turbo': -1, 'Turbo': -1}
-SLEEP_TIMEOUT = 10
+SLEEP_TIMEOUT = 5
 PARSER = 'html5lib'
+
+# Columns settings
+COL_COUNT = 10
+COL_FREQUENCY = 0
+COL_SYSTEM = 1 # contains DVB-S2 etc..
+COL_FEC_MOD = 1 # Contains FEC, Modulation (QPSK.. 8PSK...), mostly same as COL_SYSTEM
+COL_FEED = 3 # contains color to recognize if TP is feed (whatever is it)
 
 SESSION = requests.Session()
 SESSION.mount('http://', HTTPAdapter(max_retries=5))
@@ -69,7 +76,7 @@ class Lyngsat(object):
     """
     This class is responsible to perform parsing of lyngsat main site
     """
-    __satlist = ['asia']
+    __satlist = ['asia', 'europe', 'atlantic', 'america']
 
     def __init__(self, satlist=None, urls=None, feeds=False):
         """ We can create a Lyngsat without any parameters and it will
@@ -320,14 +327,14 @@ class Transponder(object):
     __is_feed = False
 
     def __init__(self, values):
-        if len(values) != 11:
+        if len(values) != COL_COUNT:
             self.__is_valid = False
             return
-        if not values[1].find('b'):  # frequency is always bold
+        if not values[COL_FREQUENCY].find('b'):  # frequency is always bold
             self.__is_valid = False
             return
         # feed, internet/interactive
-        if values[4].attrs.get('bgcolor', '') in ('#d0d0d0', '#ffaaff'):
+        if values[COL_FEED].attrs.get('style', '') in ('background:#d0d0d0', 'background:#ffaaff'):
             self.__is_feed = True
         self.modulation = 1  # Modulation_QPSK
         self.system = 0  # System_DVB_S
@@ -409,7 +416,7 @@ class Transponder(object):
 
     def __get_frequency_polarisation(self, values):
         """ parse frequency and polarisation from the first column of row """
-        freq_pol = values[1].find_all(text=True)
+        freq_pol = values[COL_FREQUENCY].find_all(text=True)
         if len(freq_pol) < 1:
             return
         if freq_pol[0][-1] in POLARISATION.keys():
@@ -425,7 +432,7 @@ class Transponder(object):
 
     def __get_system_mis_pls(self, values):
         """ parse the system, mis, pls and plp from the fifth column of row """
-        smp = values[2].find_all(text=True)
+        smp = values[COL_SYSTEM].find_all(text=True)
         if len(smp) < 1:
             return
         self.system = SYSTEMS.get(smp[0], 0)
@@ -444,7 +451,7 @@ class Transponder(object):
         """
         parse the symbol rate and fec and modulation from the 6th column of row
         """
-        sfm = values[2].find_all(text=True)
+        sfm = values[COL_FEC_MOD].find_all(text=True)
         if len(sfm) < 1:
             return
 
@@ -512,9 +519,9 @@ def cli_args():
     group.add_argument('-u', '--url', nargs='*',
                        default=[], help='list of urls to generate xml file')
     group.add_argument('-r', '--region', nargs='*',
-                       default=['asia'],
+                       default=['asia', 'europe', 'atlantic', 'america'],
                        help='list of regions to generate xml file')
-    parser.add_argument('-f', '--filename', default='satellites-asia.xml',
+    parser.add_argument('-f', '--filename', default='satellites.xml',
                         help='filename to store resulting xml file, for stdout -')
     parser.add_argument('--with-feeds', action='store_true',
                         help='Include feeds in resulting xml file')
