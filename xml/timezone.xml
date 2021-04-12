@@ -175,7 +175,9 @@
 	<zone name="(GMT-02:00) South Georgia and the South Sandwich Islands" zone="Atlantic/South_Georgia" />
 	<zone name="(GMT-01:00) Cape Verde" zone="Atlantic/Cape_Verde" />
 	<zone name="(GMT-01:00) Greenland: Scoresbysund" zone="America/Scoresbysund" />
+	<zone name="(GMT-01:00) Morocco" zone="Africa/Casablanca" />
 	<zone name="(GMT-01:00) Portugal: Azores" zone="Atlantic/Azores" />
+	<zone name="(GMT-01:00) Western Sahara" zone="Africa/El_Aaiun" />
 	<zone name="(GMT) Burkina Faso" zone="Africa/Ouagadougou" />
 	<zone name="(GMT) Faroe Islands" zone="Atlantic/Faroe" />
 	<zone name="(GMT) Gambia" zone="Africa/Banjul" />
@@ -231,7 +233,6 @@
 	<zone name="(GMT+01:00) Malta" zone="Europe/Malta" />
 	<zone name="(GMT+01:00) Monaco" zone="Europe/Monaco" />
 	<zone name="(GMT+01:00) Montenegro" zone="Europe/Podgorica" />
-	<zone name="(GMT+01:00) Morocco" zone="Africa/Casablanca" />
 	<zone name="(GMT+01:00) Netherlands" zone="Europe/Amsterdam" />
 	<zone name="(GMT+01:00) Niger" zone="Africa/Niamey" />
 	<zone name="(GMT+01:00) Nigeria" zone="Africa/Lagos" />
@@ -249,7 +250,6 @@
 	<zone name="(GMT+01:00) Switzerland" zone="Europe/Zurich" />
 	<zone name="(GMT+01:00) Tunisia" zone="Africa/Tunis" />
 	<zone name="(GMT+01:00) Vatican" zone="Europe/Vatican" />
-	<zone name="(GMT+01:00) Western Sahara" zone="Africa/El_Aaiun" />
 	<zone name="(GMT+02:00) Aland Islands" zone="Europe/Mariehamn" />
 	<zone name="(GMT+02:00) Botswana" zone="Africa/Gaborone" />
 	<zone name="(GMT+02:00) Bulgaria" zone="Europe/Sofia" />
@@ -397,7 +397,6 @@
 	<zone name="(GMT+10:00) Australia: Brisbane" zone="Australia/Brisbane" />
 	<zone name="(GMT+10:00) Australia: Hobart" zone="Australia/Hobart" />
 	<zone name="(GMT+10:00) Australia: Lindeman Island" zone="Australia/Lindeman" />
-	<zone name="(GMT+10:00) Australia: Lord Howe Island" zone="Australia/Lord_Howe" />
 	<zone name="(GMT+10:00) Australia: Macquarie Island" zone="Antarctica/Macquarie" />
 	<zone name="(GMT+10:00) Australia: Melbourne" zone="Australia/Melbourne" />
 	<zone name="(GMT+10:00) Australia: Sydney" zone="Australia/Sydney" />
@@ -407,6 +406,7 @@
 	<zone name="(GMT+10:00) Papua New Guinea: Port Moresby" zone="Pacific/Port_Moresby" />
 	<zone name="(GMT+10:00) Russia: Ust-Nera" zone="Asia/Ust-Nera" />
 	<zone name="(GMT+10:00) Russia: Vladivostok" zone="Asia/Vladivostok" />
+	<zone name="(GMT+10:30) Australia: Lord Howe Island" zone="Australia/Lord_Howe" />
 	<zone name="(GMT+11:00) Antarctica: Casey" zone="Antarctica/Casey" />
 	<zone name="(GMT+11:00) Micronesia: Kosrae" zone="Pacific/Kosrae" />
 	<zone name="(GMT+11:00) Micronesia: Pohnpei" zone="Pacific/Pohnpei" />
