@@ -112,8 +112,14 @@ class Lyngsat(object):
 
     def get_urls(self):
         """ returns all url parsed on the given regions """
-        valid_colors = ['#cccc66', '#ded9ac', 'khaki']
-        td_filter = {'width': '70', 'bgcolor': valid_colors}
+        valid_colors = [
+            'background:#bbffbb',
+            'background:#ffffbb',
+            'background:#ffcc99',
+            'background:#ffb6c1',
+            'background:white',
+        ]
+        td_filter = {'width': '70', 'style': valid_colors}
         urls = []
         for region in self.__satlist:
             eprint('Getting %s region...' % region)
