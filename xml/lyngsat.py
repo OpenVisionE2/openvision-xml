@@ -37,6 +37,8 @@ COL_SYSTEM = 1 # contains DVB-S2 etc..
 COL_FEC_MOD = 1 # Contains FEC, Modulation (QPSK.. 8PSK...), mostly same as COL_SYSTEM
 COL_FEED = 3 # contains color to recognize if TP is feed (whatever is it)
 
+MAX_RETRY = 3
+
 SESSION = requests.Session()
 SESSION.mount('http://', HTTPAdapter(max_retries=5))
 SESSION.mount('https://', HTTPAdapter(max_retries=5))
@@ -135,6 +137,7 @@ class Lyngsat(object):
         """ it prossesing urls and appends results on allsat list """
         cnt = len(self.urls)
         urls = list(self.urls)
+        __retries = {}
         for idx, url in enumerate(urls, 1):
             eprint('Getting %s ... (%d of %d)' % (url, idx, cnt))
             try:
@@ -142,10 +145,19 @@ class Lyngsat(object):
             except (requests.exceptions.ConnectionError,
                     requests.exceptions.HTTPError,
                     SatelliteNameError) as cer:
+
+                if url not in __retries:
+                    __retries[url] = 0
+                else:
+                    __retries[url] += 1
+                if __retries[url] > MAX_RETRY:
+                    eprint("[ERR] Maximum retries of {} reached, skipping".format(url))
+                    continue
+
                 urls.append(url)
                 eprint('[WARN] Exception occured %s, will retry %s later...' %
                        (repr(cer), url))
-                time.sleep(SLEEP_TIMEOUT + SLEEP_TIMEOUT)
+                time.sleep(2*SLEEP_TIMEOUT)
                 continue
             eprint(repr(sats))
             for sat in sats:
