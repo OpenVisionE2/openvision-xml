@@ -16,7 +16,7 @@ __author__ = "Athanasios Oikonomou"
 __copyright__ = "Copyright 2021, OpenPLi, OpenVision"
 __credits__ = ["Huevos", "WanWizard", "Petrkr"]
 __license__ = "GPL"
-__version__ = "10.2.2"
+__version__ = "11.1.0"
 
 POLARISATION = {'H': 0, 'V': 1, 'L': 2, 'R': 3}
 SYSTEMS = {'DVB-S': 0, 'DVB-S2': 1, 'DSS': -1, 'ISDB': -1,
