@@ -25,6 +25,7 @@
 #
 # 	See <https://www.gnu.org/licenses/>.
 
+from __future__ import print_function
 from six import PY2
 from sys import argv
 from time import gmtime, strftime
