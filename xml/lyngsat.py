@@ -27,7 +27,7 @@ FECS = {'auto': 0, '1/2': 1, '2/3': 2, '3/4': 3, '5/6': 4, '7/8': 5,
 # frontendparms.h may be wrong but if we change it our files will be incompatible with other images.
 MODULATIONS = {'auto': 0, 'QPSK': 1, '8PSK': 2, 'QAM16': 3, '16APSK': 4,
                '32APSK': 5, '8PSK Turbo': -1, 'Turbo': -1}
-SLEEP_TIMEOUT = 5
+SLEEP_TIMEOUT = 3
 PARSER = 'html5lib'
 
 # Columns settings
