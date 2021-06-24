@@ -157,7 +157,7 @@ class Lyngsat(object):
                 urls.append(url)
                 eprint('[WARN] Exception occured %s, will retry %s later...' %
                        (repr(cer), url))
-                time.sleep(2*SLEEP_TIMEOUT)
+                time.sleep(2 * SLEEP_TIMEOUT)
                 continue
             eprint(repr(sats))
             for sat in sats:
