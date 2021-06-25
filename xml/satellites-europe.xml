@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
     Grabber 11.1.0 for Open Vision
-    File created on 2021-06-24
+    File created on 2021-06-25
     BeautifulSoup Parser html5lib
-    Lyngsat(regions=europe, urls=48, satellites=68)
+    Lyngsat(regions=europe, urls=48, satellites=69)
 -->
 <satellites>
 	<sat name="1.9E BulgariaSat 1" flags="1" position="19">
@@ -466,7 +466,7 @@
 		<transponder frequency="21599000" symbol_rate="5206000" polarization="0" fec_inner="2" system="1" modulation="2" />
 		<transponder frequency="21607000" symbol_rate="7706000" polarization="0" fec_inner="2" system="1" modulation="2" />
 	</sat>
-	<sat name="17.0E Amos 17" flags="1" position="170">
+	<sat name="17.0E Ku-band Amos 17" flags="1" position="170">
 		<transponder frequency="11717000" symbol_rate="30000000" polarization="1" fec_inner="1" system="1" modulation="1" />
 		<transponder frequency="11754000" symbol_rate="28190000" polarization="1" fec_inner="8" system="1" modulation="1" />
 		<transponder frequency="11881000" symbol_rate="30000000" polarization="1" fec_inner="2" system="1" modulation="1" />
@@ -477,6 +477,9 @@
 		<transponder frequency="12333000" symbol_rate="30000000" polarization="1" fec_inner="0" system="1" modulation="1" />
 		<transponder frequency="12552000" symbol_rate="4550000" polarization="1" fec_inner="0" system="1" modulation="1" />
 		<transponder frequency="12706000" symbol_rate="5834000" polarization="1" fec_inner="0" system="1" modulation="1" />
+	</sat>
+	<sat name="17.0E C-band Amos 17" flags="1" position="171">
+		<transponder frequency="3846000" symbol_rate="6730000" polarization="3" fec_inner="2" system="1" modulation="2" />
 	</sat>
 	<sat name="19.2E Ku-band Astra 1KR/1L/1M/1N" flags="1" position="192">
 		<transponder frequency="10714000" symbol_rate="22000000" polarization="0" fec_inner="2" system="1" modulation="2" />
