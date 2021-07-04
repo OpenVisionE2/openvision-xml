@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
     Grabber 11.1.0 for Open Vision
-    File created on 2021-06-27
+    File created on 2021-07-04
     BeautifulSoup Parser html5lib
     Lyngsat(regions=america, urls=41, satellites=57)
 -->
@@ -109,6 +109,11 @@
 		<transponder frequency="12180000" symbol_rate="30000000" polarization="1" fec_inner="3" system="1" modulation="2" />
 	</sat>
 	<sat name="123.0W C-band Galaxy 18" flags="1" position="-1231">
+		<transponder frequency="4009000" symbol_rate="15000000" polarization="1" fec_inner="3" system="1" modulation="2" />
+		<transponder frequency="4020000" symbol_rate="30000000" polarization="0" fec_inner="4" system="1" modulation="2" />
+		<transponder frequency="4040000" symbol_rate="30000000" polarization="1" fec_inner="3" system="1" modulation="2" />
+		<transponder frequency="4080000" symbol_rate="30000000" polarization="1" fec_inner="4" system="1" modulation="2" />
+		<transponder frequency="4120000" symbol_rate="30000000" polarization="1" fec_inner="4" system="1" modulation="2" />
 		<transponder frequency="4140000" symbol_rate="30000000" polarization="0" fec_inner="4" system="1" modulation="2" />
 	</sat>
 	<sat name="123.0W Ku-band Galaxy 18" flags="1" position="-1230">
@@ -117,9 +122,6 @@
 		<transponder frequency="12078000" symbol_rate="3680000" polarization="1" fec_inner="3" system="0" modulation="1" />
 	</sat>
 	<sat name="121.0W C-band EchoStar 9/Galaxy 23" flags="1" position="-1211">
-		<transponder frequency="3864000" symbol_rate="2170000" polarization="0" fec_inner="3" system="0" modulation="1" />
-		<transponder frequency="3910000" symbol_rate="14400000" polarization="0" fec_inner="3" system="1" modulation="2" />
-		<transponder frequency="4011000" symbol_rate="15000000" polarization="1" fec_inner="4" system="1" modulation="2" />
 		<transponder frequency="4140000" symbol_rate="30000000" polarization="1" fec_inner="4" system="1" modulation="2" />
 	</sat>
 	<sat name="121.0W Ku-band EchoStar 9/Galaxy 23" flags="1" position="-1210">
@@ -130,6 +132,7 @@
 		<transponder frequency="12171000" symbol_rate="5800000" polarization="1" fec_inner="3" system="0" modulation="1" />
 	</sat>
 	<sat name="119.0W C-band Anik F3 &amp; T8 &amp; EchoStar 14" flags="1" position="-1191">
+		<transponder frequency="4096000" symbol_rate="23800000" polarization="1" fec_inner="3" system="0" modulation="1" />
 		<transponder frequency="4181000" symbol_rate="6528000" polarization="1" fec_inner="4" system="1" modulation="2" />
 		<transponder frequency="4196000" symbol_rate="2800000" polarization="1" fec_inner="3" system="0" modulation="1" />
 	</sat>
