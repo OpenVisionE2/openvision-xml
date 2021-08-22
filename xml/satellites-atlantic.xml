@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
     Grabber 11.1.0 for Open Vision
-    File created on 2021-08-15
+    File created on 2021-08-22
     BeautifulSoup Parser html5lib
     Lyngsat(regions=atlantic, urls=29, satellites=41)
 -->
@@ -545,6 +545,7 @@
 		<transponder frequency="3901000" symbol_rate="4250000" polarization="2" fec_inner="4" system="1" modulation="1" />
 		<transponder frequency="3913000" symbol_rate="8915000" polarization="2" fec_inner="4" system="1" modulation="1" />
 		<transponder frequency="3925000" symbol_rate="30000000" polarization="3" fec_inner="2" system="1" modulation="2" />
+		<transponder frequency="3953000" symbol_rate="1002000" polarization="3" fec_inner="4" system="1" modulation="2" />
 		<transponder frequency="3964000" symbol_rate="4166000" polarization="3" fec_inner="1" system="1" modulation="1" />
 		<transponder frequency="3982000" symbol_rate="2019000" polarization="3" fec_inner="5" system="0" modulation="1" />
 		<transponder frequency="4153000" symbol_rate="60000000" polarization="2" fec_inner="2" system="1" modulation="2" is_id="1" t2mi_plp_id="1" t2mi_pid="4096" />

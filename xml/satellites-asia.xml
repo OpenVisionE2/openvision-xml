@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
     Grabber 11.1.0 for Open Vision
-    File created on 2021-08-15
+    File created on 2021-08-22
     BeautifulSoup Parser html5lib
     Lyngsat(regions=asia, urls=60, satellites=83)
 -->
@@ -25,7 +25,6 @@
 	</sat>
 	<sat name="75.0E Ku-band ABS 2/2A" flags="1" position="750">
 		<transponder frequency="10985000" symbol_rate="35007000" polarization="0" fec_inner="3" system="1" modulation="2" />
-		<transponder frequency="11045000" symbol_rate="35007000" polarization="0" fec_inner="3" system="1" modulation="2" />
 		<transponder frequency="11473000" symbol_rate="22500000" polarization="1" fec_inner="3" system="1" modulation="2" />
 		<transponder frequency="11490000" symbol_rate="7500000" polarization="1" fec_inner="2" system="1" modulation="2" />
 		<transponder frequency="11508000" symbol_rate="3333000" polarization="1" fec_inner="5" system="0" modulation="1" />
@@ -239,8 +238,7 @@
 		<transponder frequency="12640000" symbol_rate="30000000" polarization="1" fec_inner="4" system="0" modulation="1" />
 	</sat>
 	<sat name="86.5E KazSat 2" flags="1" position="865">
-		<transponder frequency="11495000" symbol_rate="9000000" polarization="1" fec_inner="6" system="1" modulation="2" />
-		<transponder frequency="11504000" symbol_rate="6000000" polarization="1" fec_inner="6" system="1" modulation="2" />
+		<transponder frequency="11500000" symbol_rate="14664000" polarization="1" fec_inner="6" system="1" modulation="2" />
 		<transponder frequency="11642000" symbol_rate="1080000" polarization="1" fec_inner="3" system="1" modulation="2" />
 		<transponder frequency="11643000" symbol_rate="1080000" polarization="1" fec_inner="3" system="1" modulation="2" />
 		<transponder frequency="11645000" symbol_rate="1080000" polarization="1" fec_inner="3" system="1" modulation="2" />
