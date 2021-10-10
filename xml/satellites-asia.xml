@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
     Grabber 11.1.0 for Open Vision
-    File created on 2021-10-03
+    File created on 2021-10-10
     BeautifulSoup Parser html5lib
-    Lyngsat(regions=asia, urls=62, satellites=82)
+    Lyngsat(regions=asia, urls=62, satellites=83)
 -->
 <satellites>
 	<sat name="177.0W C-band NSS 9" flags="1" position="-1771">
@@ -53,6 +53,7 @@
 		<transponder frequency="4002000" symbol_rate="1250000" polarization="1" fec_inner="3" system="1" modulation="2" />
 		<transponder frequency="4006000" symbol_rate="256000" polarization="0" fec_inner="3" system="0" modulation="1" />
 		<transponder frequency="4008000" symbol_rate="1250000" polarization="0" fec_inner="2" system="1" modulation="2" />
+		<transponder frequency="4093000" symbol_rate="15000000" polarization="1" fec_inner="4" system="1" modulation="2" />
 		<transponder frequency="4123000" symbol_rate="2800000" polarization="1" fec_inner="4" system="1" modulation="2" />
 	</sat>
 	<sat name="76.5E Ku-band Apstar 7" flags="1" position="765">
@@ -141,9 +142,9 @@
 		<transponder frequency="11107000" symbol_rate="43200000" polarization="0" fec_inner="2" system="1" modulation="1" />
 	</sat>
 	<sat name="80.0E C-band Express 80" flags="1" position="801">
-		<transponder frequency="3663000" symbol_rate="15284000" polarization="3" fec_inner="3" system="1" modulation="2" t2mi_plp_id="0" t2mi_pid="4096" />
-		<transponder frequency="3690000" symbol_rate="15284000" polarization="3" fec_inner="3" system="1" modulation="2" t2mi_plp_id="0" t2mi_pid="4096" />
-		<transponder frequency="3690000" symbol_rate="15284000" polarization="3" fec_inner="3" system="1" modulation="2" t2mi_plp_id="1" t2mi_pid="4096" />
+		<transponder frequency="3812000" symbol_rate="15284000" polarization="3" fec_inner="3" system="1" modulation="2" t2mi_plp_id="0" t2mi_pid="4096" />
+		<transponder frequency="3838000" symbol_rate="15284000" polarization="3" fec_inner="3" system="1" modulation="2" t2mi_plp_id="0" t2mi_pid="4096" />
+		<transponder frequency="3838000" symbol_rate="15284000" polarization="3" fec_inner="3" system="1" modulation="2" t2mi_plp_id="1" t2mi_pid="4096" />
 	</sat>
 	<sat name="83.0E Ku-band G-Sat 10/30" flags="1" position="830">
 		<transponder frequency="10970000" symbol_rate="32720000" polarization="0" fec_inner="2" system="1" modulation="2" />
@@ -514,6 +515,10 @@
 		<transponder frequency="4114000" symbol_rate="18400000" polarization="0" fec_inner="2" system="1" modulation="2" />
 		<transponder frequency="4132000" symbol_rate="10587000" polarization="0" fec_inner="2" system="1" modulation="1" />
 	</sat>
+	<sat name="101.4E ChinaSat 9B" flags="1" position="1014">
+		<transponder frequency="11960000" symbol_rate="28800000" polarization="2" fec_inner="3" system="0" modulation="1" />
+		<transponder frequency="12020000" symbol_rate="28800000" polarization="3" fec_inner="3" system="0" modulation="1" />
+	</sat>
 	<sat name="105.5E Ku-band AsiaSat 7" flags="1" position="1055">
 		<transponder frequency="12316000" symbol_rate="2083000" polarization="0" fec_inner="1" system="1" modulation="1" />
 		<transponder frequency="12622000" symbol_rate="3894000" polarization="1" fec_inner="1" system="1" modulation="1" />
@@ -538,7 +543,6 @@
 		<transponder frequency="3880000" symbol_rate="27500000" polarization="0" fec_inner="3" system="0" modulation="1" />
 		<transponder frequency="3890000" symbol_rate="11837000" polarization="1" fec_inner="3" system="1" modulation="2" />
 		<transponder frequency="3902000" symbol_rate="7250000" polarization="1" fec_inner="3" system="1" modulation="2" />
-		<transponder frequency="3920000" symbol_rate="29720000" polarization="0" fec_inner="4" system="1" modulation="2" />
 		<transponder frequency="3940000" symbol_rate="28100000" polarization="1" fec_inner="3" system="1" modulation="2" />
 		<transponder frequency="3960000" symbol_rate="30000000" polarization="0" fec_inner="4" system="1" modulation="2" />
 		<transponder frequency="3980000" symbol_rate="28100000" polarization="1" fec_inner="3" system="1" modulation="2" />
