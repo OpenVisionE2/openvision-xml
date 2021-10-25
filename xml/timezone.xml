@@ -3,7 +3,7 @@
 <!--
 	This data has been extracted from the official IANA data
 	as distributed by TimezonesDB (https://timezonedb.com/) on
-	September 2021 by the program TimeZoneUpdater written by IanSav.
+	October 2021 by the program TimeZoneUpdater written by IanSav.
 
 	IMPORTANT NOTE: It is preferred that this file not be edited
 	except to bring it into line with future IANA updates.  If this
@@ -397,6 +397,7 @@
 	<zone name="(GMT+10:00) Australia: Brisbane" zone="Australia/Brisbane" />
 	<zone name="(GMT+10:00) Australia: Hobart" zone="Australia/Hobart" />
 	<zone name="(GMT+10:00) Australia: Lindeman Island" zone="Australia/Lindeman" />
+	<zone name="(GMT+10:00) Australia: Lord Howe Island" zone="Australia/Lord_Howe" />
 	<zone name="(GMT+10:00) Australia: Macquarie Island" zone="Antarctica/Macquarie" />
 	<zone name="(GMT+10:00) Australia: Melbourne" zone="Australia/Melbourne" />
 	<zone name="(GMT+10:00) Australia: Sydney" zone="Australia/Sydney" />
@@ -406,7 +407,6 @@
 	<zone name="(GMT+10:00) Papua New Guinea: Port Moresby" zone="Pacific/Port_Moresby" />
 	<zone name="(GMT+10:00) Russia: Ust-Nera" zone="Asia/Ust-Nera" />
 	<zone name="(GMT+10:00) Russia: Vladivostok" zone="Asia/Vladivostok" />
-	<zone name="(GMT+10:30) Australia: Lord Howe Island" zone="Australia/Lord_Howe" />
 	<zone name="(GMT+11:00) Antarctica: Casey" zone="Antarctica/Casey" />
 	<zone name="(GMT+11:00) Micronesia: Kosrae" zone="Pacific/Kosrae" />
 	<zone name="(GMT+11:00) Micronesia: Pohnpei" zone="Pacific/Pohnpei" />
