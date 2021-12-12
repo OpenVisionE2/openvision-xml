@@ -1,7 +1,7 @@
 #!/bin/sh
 
 cd xml
-python TimeZoneUpdater.py ${TimezonesDB_API} timezone.xml
+python TimeZoneUpdater.py 7KZU8BFJBHD8 timezone.xml
 sleep 1
 cd ..
 
