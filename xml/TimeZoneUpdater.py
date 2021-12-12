@@ -1,4 +1,4 @@
-#!/usr/lib/python
+#!/usr/bin/python
 #
 # 	TimeZoneUpdater.py
 #
@@ -25,7 +25,6 @@
 #
 # 	See <https://www.gnu.org/licenses/>.
 
-from __future__ import print_function
 from six import PY2
 from sys import argv
 from time import gmtime, strftime
@@ -37,6 +36,7 @@ from xml.etree.cElementTree import ParseError, fromstring
 
 TIMEZONEDB_FETCH = "http://api.timezonedb.com/v2.1/list-time-zone?key=%s&format=xml&fields=countryName,zoneName,gmtOffset,dst"
 OUTPUT_FILE = "timezone.xml"
+TIMEZONEBASE = "GMT"  # Some prefer "UTC".
 FILE_HEADER = """<?xml version="1.0" encoding="UTF-8"?>
 
 <!--
@@ -50,6 +50,7 @@ FILE_HEADER = """<?xml version="1.0" encoding="UTF-8"?>
 	unique.  If there are *any* duplicated zone entries the Enigma2
 	ConfigSelection UI control can/will fail!
 -->
+
 """
 nameReMap = (
 	"Antarctica",
@@ -99,7 +100,7 @@ zoneNameReMap = {
 	"Pacific/Wake": "United States Minor Outlying Islands: Wake Island",
 }
 
-print("TimeZoneUpdater version 1.0  -  Copyright (C) 2021  IanSav.\n")
+print("TimeZoneUpdater version 1.1  -  Copyright (C) 2021  IanSav.\n")
 print("This program comes with ABSOLUTELY NO WARRANTY.")
 print("This is free software, and you are welcome to redistribute it under")
 print("certain conditions.  See source code and GNUv3 for details.\n")
@@ -127,7 +128,7 @@ for zoneElement in timeZoneDom.findall("zone"):
 	countryName = zoneElement.find("countryName").text
 	zoneName = zoneElement.find("zoneName").text
 	gmtOffset = zoneElement.find("gmtOffset").text
-	dst = zoneElement.find("dst").text
+	dst = zoneElement.find("dst").text.lower() in ("1", "true", "yes")  # API documentation says "0"/"1" but currently sends "false"/"true"!
 	if countryName in nameReMap:
 		zones = zoneName.split("/")
 		if len(zones) == 3 and countryName != zones[-2]:
@@ -137,7 +138,7 @@ for zoneElement in timeZoneDom.findall("zone"):
 	nameReplacement = zoneNameReMap.get(zoneName, None)
 	if nameReplacement:
 		countryName = nameReplacement
-	gmtOffset = float(gmtOffset) - 3600.0 if int(dst) else float(gmtOffset)
+	gmtOffset = float(gmtOffset) - 3600.0 if dst else float(gmtOffset)
 	data = str(gmtOffset / 3600.0).split(".")
 	if len(data) == 2:
 		data[1] = float("0.%s" % data[1]) * 60.0
@@ -146,14 +147,14 @@ for zoneElement in timeZoneDom.findall("zone"):
 	offset = "%+03d:%02d" % (int(data[0]), int(data[1]))
 	if offset == "+00:00":
 		offset = ""
-	timeZoneData["%06d%s" % (gmtOffset + 100000, countryName)] = "\t<zone name=\"(GMT%s) %s\" zone=\"%s\" />" % (offset, countryName, zoneName)
+	timeZoneData["%06d%s" % (gmtOffset + 100000, countryName)] = "\t<zone name=\"(%s%s) %s\" zone=\"%s\" />" % (TIMEZONEBASE, offset, countryName, zoneName)
 timeZones = []
 for timeZoneItem in sorted(list(timeZoneData.keys())):
 	timeZones.append(timeZoneData[timeZoneItem])
 print("Creating and writing time zone file...")
 try:
 	with open(outputFile, "w") as fd:
-		fd.write(FILE_HEADER % strftime("%B %Y", gmtime()))
+		fd.write(FILE_HEADER % strftime("%d-%b-%Y", gmtime()))
 		fd.write("<timezone>\n")
 		fd.write("\n".join(timeZones).encode("UTF-8", errors="ignore") if PY2 else "\n".join(timeZones))
 		fd.write("\n</timezone>\n")
