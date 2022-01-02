@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
     Grabber 11.1.0 for Open Vision
-    File created on 2021-12-26
+    File created on 2022-01-02
     BeautifulSoup Parser html5lib
     Lyngsat(regions=america, urls=43, satellites=58)
 -->
@@ -137,7 +137,6 @@
 	<sat name="123.0W Ku-band Galaxy 18" flags="1" position="-1230">
 		<transponder frequency="12008000" symbol_rate="12660000" polarization="0" fec_inner="3" system="0" modulation="1" />
 		<transponder frequency="12020000" symbol_rate="2894000" polarization="0" fec_inner="3" system="0" modulation="1" />
-		<transponder frequency="12030000" symbol_rate="12660000" polarization="0" fec_inner="3" system="0" modulation="1" />
 		<transponder frequency="12078000" symbol_rate="3680000" polarization="1" fec_inner="3" system="0" modulation="1" />
 	</sat>
 	<sat name="121.0W C-band EchoStar 9/Galaxy 23" flags="1" position="-1211">
