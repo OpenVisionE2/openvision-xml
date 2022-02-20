@@ -154,7 +154,7 @@ for timeZoneItem in sorted(list(timeZoneData.keys())):
 print("Creating and writing time zone file...")
 try:
 	with open(outputFile, "w") as fd:
-		fd.write(FILE_HEADER % strftime("%d-%b-%Y", gmtime()))
+		fd.write(FILE_HEADER % strftime("%B %Y", gmtime()))
 		fd.write("<timezone>\n")
 		fd.write("\n".join(timeZones).encode("UTF-8", errors="ignore") if PY2 else "\n".join(timeZones))
 		fd.write("\n</timezone>\n")
