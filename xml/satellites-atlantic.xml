@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
     Grabber 11.1.0 for Open Vision
-    File created on 2022-04-06
+    File created on 2022-04-10
     BeautifulSoup Parser html5lib
-    Lyngsat(regions=atlantic, urls=29, satellites=42)
+    Lyngsat(regions=atlantic, urls=27, satellites=42)
 -->
 <satellites>
 	<sat name="61.0W C-band Amazonas 2/3/5" flags="1" position="-611">
@@ -230,7 +230,6 @@
 		<transponder frequency="3985000" symbol_rate="4400000" polarization="1" fec_inner="3" system="0" modulation="1" />
 		<transponder frequency="4026000" symbol_rate="18530000" polarization="1" fec_inner="4" system="1" modulation="2" />
 		<transponder frequency="4040000" symbol_rate="30800000" polarization="0" fec_inner="5" system="0" modulation="1" />
-		<transponder frequency="4053000" symbol_rate="23780000" polarization="1" fec_inner="3" system="1" modulation="2" />
 		<transponder frequency="4086000" symbol_rate="7500000" polarization="1" fec_inner="3" system="1" modulation="2" />
 		<transponder frequency="4112000" symbol_rate="14800000" polarization="1" fec_inner="3" system="1" modulation="2" />
 		<transponder frequency="4135000" symbol_rate="4167000" polarization="1" fec_inner="4" system="1" modulation="1" />
@@ -705,7 +704,6 @@
 		<transponder frequency="12648000" symbol_rate="29500000" polarization="1" fec_inner="6" system="1" modulation="2" is_id="2" pls_mode="1" pls_code="121212" />
 		<transponder frequency="12648000" symbol_rate="29500000" polarization="1" fec_inner="6" system="1" modulation="2" is_id="3" pls_mode="1" pls_code="121212" />
 		<transponder frequency="12669000" symbol_rate="35500000" polarization="0" fec_inner="2" system="1" modulation="2" is_id="1" pls_mode="1" pls_code="262140" />
-		<transponder frequency="12669000" symbol_rate="35500000" polarization="0" fec_inner="2" system="1" modulation="2" is_id="2" pls_mode="1" pls_code="262140" />
 		<transponder frequency="12732000" symbol_rate="29500000" polarization="1" fec_inner="6" system="1" modulation="2" is_id="1" pls_mode="1" pls_code="50416" />
 		<transponder frequency="12732000" symbol_rate="29500000" polarization="1" fec_inner="6" system="1" modulation="2" is_id="4" pls_mode="1" pls_code="50416" />
 		<transponder frequency="12732000" symbol_rate="29500000" polarization="1" fec_inner="6" system="1" modulation="2" is_id="6" pls_mode="1" pls_code="50416" />
@@ -745,7 +743,7 @@
 		<transponder frequency="12341000" symbol_rate="17900000" polarization="0" fec_inner="3" system="1" modulation="2" />
 		<transponder frequency="12354000" symbol_rate="3333000" polarization="0" fec_inner="3" system="0" modulation="1" />
 		<transponder frequency="12362000" symbol_rate="3333000" polarization="0" fec_inner="3" system="0" modulation="1" />
-		<transponder frequency="12369000" symbol_rate="8333000" polarization="0" fec_inner="3" system="0" modulation="1" />
+		<transponder frequency="12369000" symbol_rate="8333000" polarization="0" fec_inner="3" system="1" modulation="2" />
 	</sat>
 	<sat name="3.0W C-band ABS 3A" flags="1" position="-31">
 		<transponder frequency="3958000" symbol_rate="1666000" polarization="0" fec_inner="4" system="1" modulation="1" />
