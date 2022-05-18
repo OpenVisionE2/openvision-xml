@@ -1,16 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
     Grabber 11.1.0 for Open Vision
-    File created on 2022-05-15
+    File created on 2022-05-18
     BeautifulSoup Parser html5lib
-    Lyngsat(regions=america, urls=44, satellites=58)
+    Lyngsat(regions=america, urls=44, satellites=57)
 -->
 <satellites>
 	<sat name="139.0W C-band AMC 6" flags="1" position="-1391">
 		<transponder frequency="4056000" symbol_rate="13250000" polarization="0" fec_inner="3" system="0" modulation="1" />
 	</sat>
 	<sat name="133.0W C-band Galaxy 15" flags="1" position="-1331">
-		<transponder frequency="3820000" symbol_rate="31250000" polarization="1" fec_inner="3" system="1" modulation="2" />
 		<transponder frequency="3860000" symbol_rate="30000000" polarization="1" fec_inner="6" system="1" modulation="2" />
 		<transponder frequency="3920000" symbol_rate="30000000" polarization="0" fec_inner="4" system="1" modulation="2" />
 		<transponder frequency="3940000" symbol_rate="30000000" polarization="1" fec_inner="4" system="1" modulation="2" />
@@ -474,6 +473,7 @@
 		<transponder frequency="3952000" symbol_rate="10000000" polarization="0" fec_inner="4" system="1" modulation="1" />
 		<transponder frequency="3980000" symbol_rate="30000000" polarization="0" fec_inner="4" system="1" modulation="2" />
 		<transponder frequency="4005000" symbol_rate="4442000" polarization="1" fec_inner="3" system="0" modulation="1" />
+		<transponder frequency="4020000" symbol_rate="30000000" polarization="0" fec_inner="4" system="1" modulation="2" />
 		<transponder frequency="4030000" symbol_rate="12400000" polarization="1" fec_inner="5" system="0" modulation="1" />
 		<transponder frequency="4048000" symbol_rate="15800000" polarization="1" fec_inner="4" system="1" modulation="2" />
 		<transponder frequency="4080000" symbol_rate="30000000" polarization="1" fec_inner="4" system="1" modulation="2" />
@@ -524,10 +524,7 @@
 		<transponder frequency="12177000" symbol_rate="23000000" polarization="1" fec_inner="3" system="0" modulation="1" />
 		<transponder frequency="12184000" symbol_rate="22500000" polarization="0" fec_inner="2" system="1" modulation="2" />
 	</sat>
-	<sat name="95.0W C-band Galaxy 3C &amp; Spaceway 3 &amp; Intelsat 30/31" flags="1" position="-951">
-		<transponder frequency="3912000" symbol_rate="2000000" polarization="1" fec_inner="4" system="1" modulation="2" />
-	</sat>
-	<sat name="95.0W Ku-band Galaxy 3C &amp; Spaceway 3 &amp; Intelsat 30/31" flags="1" position="-950">
+	<sat name="95.0W Galaxy 3C &amp; Spaceway 3 &amp; Intelsat 30/31" flags="1" position="-950">
 		<transponder frequency="12121000" symbol_rate="2653000" polarization="0" fec_inner="4" system="1" modulation="2" />
 	</sat>
 	<sat name="91.0W C-band Galaxy 17 &amp; Nimiq 6" flags="1" position="-911">
@@ -797,7 +794,7 @@
 		<transponder frequency="12062000" symbol_rate="4170000" polarization="1" fec_inner="0" system="1" modulation="1" />
 		<transponder frequency="12071000" symbol_rate="2420000" polarization="1" fec_inner="0" system="1" modulation="1" />
 		<transponder frequency="12075000" symbol_rate="4600000" polarization="1" fec_inner="0" system="1" modulation="1" />
-		<transponder frequency="12079000" symbol_rate="2850000" polarization="1" fec_inner="0" system="1" modulation="1" />
+		<transponder frequency="12079000" symbol_rate="5000000" polarization="1" fec_inner="0" system="1" modulation="1" />
 		<transponder frequency="12086000" symbol_rate="4170000" polarization="1" fec_inner="2" system="0" modulation="1" />
 		<transponder frequency="12090000" symbol_rate="1850000" polarization="1" fec_inner="0" system="0" modulation="1" />
 		<transponder frequency="12096000" symbol_rate="3333000" polarization="1" fec_inner="2" system="1" modulation="1" />
