@@ -14,7 +14,7 @@ bootuptime: integer, delay to allow the device to boot up, in milliseconds (opti
 lofl: integer, alternative LOF/L value (optional, default value is 9750)
 lofh: integer, alternative LOF/H value (optional, defaultvalue is 10600)
 -->
-<unicable version="20220401">
+<unicable version="20220518">
 	<lnb>
 		<manufacturer name="Dura-Sat(DUR-line)">
 			<product name="UK101" scrs="1210,1420,1680,2040" bootuptime="2500"/>
