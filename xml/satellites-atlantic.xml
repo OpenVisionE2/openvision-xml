@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
     Grabber 11.1.0 for Open Vision
-    File created on 2022-05-29
+    File created on 2022-06-05
     BeautifulSoup Parser html5lib
     Lyngsat(regions=atlantic, urls=27, satellites=42)
 -->
@@ -217,9 +217,11 @@
 	</sat>
 	<sat name="43.1W C-band Intelsat 11 &amp; Sky Brasil 1" flags="1" position="-432">
 		<transponder frequency="3772000" symbol_rate="15000000" polarization="1" fec_inner="4" system="1" modulation="2" />
+		<transponder frequency="3772000" symbol_rate="15570000" polarization="0" fec_inner="3" system="1" modulation="2" />
 		<transponder frequency="3825000" symbol_rate="2500000" polarization="1" fec_inner="3" system="1" modulation="2" />
 		<transponder frequency="3829000" symbol_rate="2222000" polarization="1" fec_inner="3" system="0" modulation="1" />
 		<transponder frequency="3829000" symbol_rate="9600000" polarization="0" fec_inner="2" system="1" modulation="2" />
+		<transponder frequency="3838000" symbol_rate="3600000" polarization="0" fec_inner="0" system="0" modulation="1" />
 		<transponder frequency="3840000" symbol_rate="7500000" polarization="1" fec_inner="3" system="1" modulation="2" />
 		<transponder frequency="3854000" symbol_rate="5000000" polarization="1" fec_inner="3" system="1" modulation="2" />
 		<transponder frequency="3861000" symbol_rate="5000000" polarization="1" fec_inner="3" system="1" modulation="1" />
@@ -237,7 +239,7 @@
 		<transponder frequency="4135000" symbol_rate="4167000" polarization="1" fec_inner="4" system="1" modulation="1" />
 		<transponder frequency="4144000" symbol_rate="17400000" polarization="0" fec_inner="2" system="1" modulation="2" />
 		<transponder frequency="4149000" symbol_rate="20083000" polarization="1" fec_inner="2" system="1" modulation="2" />
-		<transponder frequency="4185000" symbol_rate="20709000" polarization="0" fec_inner="4" system="1" modulation="2" />
+		<transponder frequency="4185000" symbol_rate="20709000" polarization="0" fec_inner="3" system="1" modulation="2" />
 	</sat>
 	<sat name="43.1W Ku-band Intelsat 11 &amp; Sky Brasil 1" flags="1" position="-431">
 		<transponder frequency="10722000" symbol_rate="30000000" polarization="0" fec_inner="3" system="0" modulation="1" />
@@ -273,7 +275,7 @@
 		<transponder frequency="3648000" symbol_rate="6666000" polarization="3" fec_inner="2" system="1" modulation="2" />
 		<transponder frequency="3652000" symbol_rate="4000000" polarization="2" fec_inner="4" system="0" modulation="1" />
 		<transponder frequency="3657000" symbol_rate="3255000" polarization="2" fec_inner="3" system="0" modulation="1" />
-		<transponder frequency="3710000" symbol_rate="8330000" polarization="2" fec_inner="2" system="1" modulation="2" />
+		<transponder frequency="3710000" symbol_rate="8330000" polarization="2" fec_inner="3" system="1" modulation="2" />
 		<transponder frequency="3723000" symbol_rate="30000000" polarization="3" fec_inner="4" system="1" modulation="2" />
 		<transponder frequency="3763000" symbol_rate="30000000" polarization="3" fec_inner="4" system="1" modulation="2" />
 		<transponder frequency="3803000" symbol_rate="30000000" polarization="2" fec_inner="4" system="1" modulation="2" />
@@ -421,7 +423,6 @@
 		<transponder frequency="12130000" symbol_rate="27500000" polarization="0" fec_inner="3" system="1" modulation="2" />
 		<transponder frequency="12132000" symbol_rate="27500000" polarization="0" fec_inner="3" system="0" modulation="1" />
 		<transponder frequency="12246000" symbol_rate="27500000" polarization="0" fec_inner="3" system="1" modulation="2" />
-		<transponder frequency="12284000" symbol_rate="27500000" polarization="0" fec_inner="3" system="1" modulation="2" />
 		<transponder frequency="12360000" symbol_rate="27500000" polarization="0" fec_inner="3" system="1" modulation="2" />
 		<transponder frequency="12399000" symbol_rate="27500000" polarization="0" fec_inner="3" system="1" modulation="2" />
 		<transponder frequency="12437000" symbol_rate="27500000" polarization="0" fec_inner="3" system="1" modulation="2" />
