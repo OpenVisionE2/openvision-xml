@@ -14,11 +14,11 @@ XML:
 - satellites-atlantic.xml (0°W-61°W)
 - satellites-europe.xml (73°E-0°E)
 - terrestrial.xml (OE-A version)
-- timezone.xml
+- timezone.xml (https://www.iana.org/time-zones)
 
 DATA:
 
-- iso-639-3.pck
+- iso-639-3.pck (py2 and py3)
 
 # Manual updates
 
