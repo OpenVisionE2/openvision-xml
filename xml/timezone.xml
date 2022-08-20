@@ -283,7 +283,7 @@
 	<zone name="(GMT+02:00) South Sudan" zone="Africa/Juba" />
 	<zone name="(GMT+02:00) Sudan" zone="Africa/Khartoum" />
 	<zone name="(GMT+02:00) Syria" zone="Asia/Damascus" />
-	<zone name="(GMT+02:00) Ukraine: Kiev" zone="Europe/Kiev" />
+	<zone name="(GMT+02:00) Ukraine: Kyiv" zone="Europe/Kyiv" />
 	<zone name="(GMT+02:00) Ukraine: Uzhgorod" zone="Europe/Uzhgorod" />
 	<zone name="(GMT+02:00) Ukraine: Zaporozhye" zone="Europe/Zaporozhye" />
 	<zone name="(GMT+02:00) Zambia" zone="Africa/Lusaka" />
