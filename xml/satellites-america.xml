@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
     Grabber 11.1.0 for Open Vision
-    File created on 2022-09-04
+    File created on 2022-09-06
     BeautifulSoup Parser html5lib
     Lyngsat(regions=america, urls=44, satellites=58)
 -->
@@ -16,7 +16,6 @@
 		<transponder frequency="4100000" symbol_rate="30000000" polarization="0" fec_inner="4" system="1" modulation="2" />
 	</sat>
 	<sat name="131.0W C-band AMC 11" flags="1" position="-1311">
-		<transponder frequency="3780000" symbol_rate="30000000" polarization="0" fec_inner="4" system="1" modulation="2" />
 		<transponder frequency="3940000" symbol_rate="30000000" polarization="0" fec_inner="2" system="1" modulation="2" />
 		<transponder frequency="3980000" symbol_rate="30000000" polarization="0" fec_inner="2" system="1" modulation="2" />
 		<transponder frequency="4000000" symbol_rate="34280000" polarization="1" fec_inner="4" system="1" modulation="2" />
@@ -74,6 +73,7 @@
 		<transponder frequency="12676000" symbol_rate="21500000" polarization="2" fec_inner="2" system="1" modulation="2" />
 	</sat>
 	<sat name="127.0W C-band Galaxy 13/Horizons 1" flags="1" position="-1271">
+		<transponder frequency="3920000" symbol_rate="28068000" polarization="1" fec_inner="3" system="0" modulation="1" />
 		<transponder frequency="3980000" symbol_rate="30000000" polarization="0" fec_inner="4" system="1" modulation="2" />
 		<transponder frequency="4009000" symbol_rate="15000000" polarization="1" fec_inner="4" system="1" modulation="2" />
 		<transponder frequency="4020000" symbol_rate="30000000" polarization="0" fec_inner="4" system="1" modulation="2" />
@@ -275,7 +275,7 @@
 		<transponder frequency="4124000" symbol_rate="3609000" polarization="0" fec_inner="3" system="1" modulation="2" />
 		<transponder frequency="4132000" symbol_rate="6400000" polarization="1" fec_inner="3" system="1" modulation="1" />
 		<transponder frequency="4141000" symbol_rate="6666000" polarization="1" fec_inner="3" system="1" modulation="1" />
-		<transponder frequency="4155000" symbol_rate="14000000" polarization="1" fec_inner="3" system="1" modulation="2" />
+		<transponder frequency="4155000" symbol_rate="14400000" polarization="1" fec_inner="3" system="1" modulation="2" />
 		<transponder frequency="4173000" symbol_rate="13330000" polarization="1" fec_inner="3" system="1" modulation="2" />
 	</sat>
 	<sat name="114.9W Ku-band Eutelsat 115 West B" flags="1" position="-1149">
