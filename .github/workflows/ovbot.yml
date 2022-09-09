@@ -26,7 +26,7 @@ jobs:
         run: |
           sudo apt-get -q update
           pip install -r CI/requirements.txt
-          pip install --upgrade pip six autopep8 future
+          pip install --upgrade pip six autopep8 future 2to3
           ./CI/build.sh
         env:
           TIMEZONESDB_API: ${{ secrets.TIMEZONESDB_API }}
