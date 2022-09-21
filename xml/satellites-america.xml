@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
     Grabber 11.1.0 for Open Vision
-    File created on 2022-09-18
+    File created on 2022-09-21
     BeautifulSoup Parser html5lib
-    Lyngsat(regions=america, urls=44, satellites=58)
+    Lyngsat(regions=america, urls=45, satellites=58)
 -->
 <satellites>
 	<sat name="139.0W C-band AMC 6" flags="1" position="-1391">

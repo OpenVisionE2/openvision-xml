@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
     Grabber 11.1.0 for Open Vision
-    File created on 2022-09-18
+    File created on 2022-09-21
     BeautifulSoup Parser html5lib
-    Lyngsat(regions=atlantic, urls=29, satellites=43)
+    Lyngsat(regions=atlantic, urls=28, satellites=43)
 -->
 <satellites>
 	<sat name="61.0W C-band Amazonas 2/3/5" flags="1" position="-611">
@@ -122,7 +122,6 @@
 		<transponder frequency="3774000" symbol_rate="10560000" polarization="0" fec_inner="7" system="1" modulation="2" />
 		<transponder frequency="3792000" symbol_rate="2500000" polarization="0" fec_inner="4" system="1" modulation="1" />
 		<transponder frequency="3799000" symbol_rate="6670000" polarization="0" fec_inner="4" system="1" modulation="2" />
-		<transponder frequency="3814000" symbol_rate="15000000" polarization="0" fec_inner="4" system="1" modulation="2" />
 		<transponder frequency="3820000" symbol_rate="5000000" polarization="1" fec_inner="3" system="1" modulation="2" />
 		<transponder frequency="3845000" symbol_rate="30000000" polarization="1" fec_inner="4" system="1" modulation="2" />
 		<transponder frequency="3885000" symbol_rate="30000000" polarization="0" fec_inner="4" system="1" modulation="2" />
@@ -561,6 +560,7 @@
 		<transponder frequency="11469000" symbol_rate="1650000" polarization="1" fec_inner="4" system="1" modulation="2" />
 		<transponder frequency="11473000" symbol_rate="2222000" polarization="1" fec_inner="3" system="1" modulation="2" />
 		<transponder frequency="11475000" symbol_rate="1600000" polarization="1" fec_inner="4" system="1" modulation="2" />
+		<transponder frequency="11523000" symbol_rate="1600000" polarization="1" fec_inner="6" system="1" modulation="2" />
 	</sat>
 	<sat name="8.0W C-band Eutelsat 8 West B" flags="1" position="-81">
 		<transponder frequency="3725000" symbol_rate="30000000" polarization="3" fec_inner="3" system="1" modulation="2" />

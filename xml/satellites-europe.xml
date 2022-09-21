@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
     Grabber 11.1.0 for Open Vision
-    File created on 2022-09-18
+    File created on 2022-09-21
     BeautifulSoup Parser html5lib
     Lyngsat(regions=europe, urls=48, satellites=68)
 -->
@@ -269,13 +269,12 @@
 	</sat>
 	<sat name="10.0E C-band Eutelsat 10A" flags="1" position="101">
 		<transponder frequency="3650000" symbol_rate="24170000" polarization="3" fec_inner="4" system="1" modulation="2" />
-		<transponder frequency="3689000" symbol_rate="1333000" polarization="2" fec_inner="7" system="1" modulation="2" />
-		<transponder frequency="3690000" symbol_rate="1100000" polarization="2" fec_inner="2" system="1" modulation="2" />
 		<transponder frequency="3721000" symbol_rate="3600000" polarization="3" fec_inner="3" system="1" modulation="2" />
 		<transponder frequency="3731000" symbol_rate="12900000" polarization="3" fec_inner="4" system="1" modulation="2" />
 		<transponder frequency="3766000" symbol_rate="12542000" polarization="3" fec_inner="4" system="1" modulation="2" />
 		<transponder frequency="3777000" symbol_rate="6480000" polarization="3" fec_inner="3" system="1" modulation="2" />
 		<transponder frequency="3783000" symbol_rate="2251000" polarization="3" fec_inner="7" system="1" modulation="2" />
+		<transponder frequency="3803000" symbol_rate="1500000" polarization="3" fec_inner="7" system="1" modulation="2" />
 		<transponder frequency="3835000" symbol_rate="1650000" polarization="3" fec_inner="4" system="1" modulation="2" />
 		<transponder frequency="3860000" symbol_rate="4042000" polarization="3" fec_inner="2" system="1" modulation="2" />
 		<transponder frequency="3865000" symbol_rate="4680000" polarization="3" fec_inner="3" system="1" modulation="1" />
