@@ -104,7 +104,6 @@
 	<zone name="(GMT-05:00) United States: Kentucky; Monticello" zone="America/Kentucky/Monticello" />
 	<zone name="(GMT-05:00) United States: New York" zone="America/New_York" />
 	<zone name="(GMT-04:00) Anguilla" zone="America/Anguilla" />
-	<zone name="(GMT-04:00) Antarctica: Palmer" zone="Antarctica/Palmer" />
 	<zone name="(GMT-04:00) Antigua and Barbuda" zone="America/Antigua" />
 	<zone name="(GMT-04:00) Aruba" zone="America/Aruba" />
 	<zone name="(GMT-04:00) Barbados" zone="America/Barbados" />
@@ -122,7 +121,6 @@
 	<zone name="(GMT-04:00) Canada: Goose Bay" zone="America/Goose_Bay" />
 	<zone name="(GMT-04:00) Canada: Halifax" zone="America/Halifax" />
 	<zone name="(GMT-04:00) Canada: Moncton" zone="America/Moncton" />
-	<zone name="(GMT-04:00) Chile: Punta Arenas" zone="America/Punta_Arenas" />
 	<zone name="(GMT-04:00) Chile: Santiago" zone="America/Santiago" />
 	<zone name="(GMT-04:00) Curacao" zone="America/Curacao" />
 	<zone name="(GMT-04:00) Dominica" zone="America/Dominica" />
@@ -145,6 +143,7 @@
 	<zone name="(GMT-04:00) U.S. Virgin Islands" zone="America/St_Thomas" />
 	<zone name="(GMT-04:00) Venezuela" zone="America/Caracas" />
 	<zone name="(GMT-03:30) Canada: St Johns" zone="America/St_Johns" />
+	<zone name="(GMT-03:00) Antarctica: Palmer" zone="Antarctica/Palmer" />
 	<zone name="(GMT-03:00) Antarctica: Rothera" zone="Antarctica/Rothera" />
 	<zone name="(GMT-03:00) Argentina: Buenos Aires" zone="America/Argentina/Buenos_Aires" />
 	<zone name="(GMT-03:00) Argentina: Catamarca" zone="America/Argentina/Catamarca" />
@@ -166,6 +165,7 @@
 	<zone name="(GMT-03:00) Brazil: Recife" zone="America/Recife" />
 	<zone name="(GMT-03:00) Brazil: Santarem" zone="America/Santarem" />
 	<zone name="(GMT-03:00) Brazil: Sao Paulo" zone="America/Sao_Paulo" />
+	<zone name="(GMT-03:00) Chile: Punta Arenas" zone="America/Punta_Arenas" />
 	<zone name="(GMT-03:00) Falkland Islands" zone="Atlantic/Stanley" />
 	<zone name="(GMT-03:00) French Guiana" zone="America/Cayenne" />
 	<zone name="(GMT-03:00) Greenland: Nuuk" zone="America/Nuuk" />
@@ -283,8 +283,6 @@
 	<zone name="(GMT+02:00) Sudan" zone="Africa/Khartoum" />
 	<zone name="(GMT+02:00) Syria" zone="Asia/Damascus" />
 	<zone name="(GMT+02:00) Ukraine: Kyiv" zone="Europe/Kyiv" />
-	<zone name="(GMT+02:00) Ukraine: Uzhgorod" zone="Europe/Uzhgorod" />
-	<zone name="(GMT+02:00) Ukraine: Zaporozhye" zone="Europe/Zaporozhye" />
 	<zone name="(GMT+02:00) Zambia" zone="Africa/Lusaka" />
 	<zone name="(GMT+02:00) Zimbabwe" zone="Africa/Harare" />
 	<zone name="(GMT+03:00) Antarctica: Syowa" zone="Antarctica/Syowa" />
@@ -314,9 +312,6 @@
 	<zone name="(GMT+04:00) Armenia" zone="Asia/Yerevan" />
 	<zone name="(GMT+04:00) Azerbaijan" zone="Asia/Baku" />
 	<zone name="(GMT+04:00) Georgia" zone="Asia/Tbilisi" />
-	<zone name="(GMT+04:00) Kazakhstan: Aqtau" zone="Asia/Aqtau" />
-	<zone name="(GMT+04:00) Kazakhstan: Atyrau" zone="Asia/Atyrau" />
-	<zone name="(GMT+04:00) Kazakhstan: Oral" zone="Asia/Oral" />
 	<zone name="(GMT+04:00) Mauritius" zone="Indian/Mauritius" />
 	<zone name="(GMT+04:00) Oman" zone="Asia/Muscat" />
 	<zone name="(GMT+04:00) Reunion" zone="Indian/Reunion" />
@@ -329,10 +324,11 @@
 	<zone name="(GMT+04:30) Afghanistan" zone="Asia/Kabul" />
 	<zone name="(GMT+05:00) Antarctica: Mawson" zone="Antarctica/Mawson" />
 	<zone name="(GMT+05:00) French Southern Territories" zone="Indian/Kerguelen" />
+	<zone name="(GMT+05:00) Kazakhstan: Aqtau" zone="Asia/Aqtau" />
 	<zone name="(GMT+05:00) Kazakhstan: Aqtobe" zone="Asia/Aqtobe" />
-	<zone name="(GMT+05:00) Kazakhstan: Qostanay" zone="Asia/Qostanay" />
+	<zone name="(GMT+05:00) Kazakhstan: Atyrau" zone="Asia/Atyrau" />
+	<zone name="(GMT+05:00) Kazakhstan: Oral" zone="Asia/Oral" />
 	<zone name="(GMT+05:00) Kazakhstan: Qyzylorda" zone="Asia/Qyzylorda" />
-	<zone name="(GMT+05:00) Kyrgyzstan" zone="Asia/Bishkek" />
 	<zone name="(GMT+05:00) Maldives" zone="Indian/Maldives" />
 	<zone name="(GMT+05:00) Pakistan" zone="Asia/Karachi" />
 	<zone name="(GMT+05:00) Russia: Yekaterinburg" zone="Asia/Yekaterinburg" />
@@ -349,6 +345,8 @@
 	<zone name="(GMT+06:00) British Indian Ocean Territory" zone="Indian/Chagos" />
 	<zone name="(GMT+06:00) China: Urumqi" zone="Asia/Urumqi" />
 	<zone name="(GMT+06:00) Kazakhstan: Almaty" zone="Asia/Almaty" />
+	<zone name="(GMT+06:00) Kazakhstan: Qostanay" zone="Asia/Qostanay" />
+	<zone name="(GMT+06:00) Kyrgyzstan" zone="Asia/Bishkek" />
 	<zone name="(GMT+06:00) Russia: Omsk" zone="Asia/Omsk" />
 	<zone name="(GMT+06:30) Cocos Islands" zone="Indian/Cocos" />
 	<zone name="(GMT+06:30) Myanmar" zone="Asia/Yangon" />
