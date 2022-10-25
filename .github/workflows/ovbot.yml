@@ -16,7 +16,7 @@ jobs:
 
       - uses: actions/checkout@v2
         with:
-          ref: 'master'
+          ref: 'WXbet-skipit'
 
       - uses: actions/setup-python@v2
         with:
