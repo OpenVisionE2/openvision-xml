@@ -2,7 +2,7 @@ name: ovbot
 
 on:
   push:
-    branches: [ master ]
+    branches: [ WXbet-skipit ]
   schedule:
     - cron:  '1 1 * * 0'
 
