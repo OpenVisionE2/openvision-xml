@@ -13,10 +13,10 @@ from bs4 import BeautifulSoup
 from requests.adapters import HTTPAdapter
 
 __author__ = "Athanasios Oikonomou"
-__copyright__ = "Copyright 2021, OpenPLi, OpenVision"
-__credits__ = ["Huevos", "WanWizard", "Petrkr"]
+__copyright__ = "Copyright 2021, OpenPLi, Open Vision"
+__credits__ = ["Huevos", "WanWizard", "Petrkr", "Persian Prince"]
 __license__ = "GPL"
-__version__ = "11.1.0"
+__version__ = "12.2.0"
 
 POLARISATION = {'H': 0, 'V': 1, 'L': 2, 'R': 3}
 SYSTEMS = {'DVB-S': 0, 'DVB-S2': 1, 'DSS': -1, 'ISDB': -1,
@@ -435,6 +435,8 @@ class Transponder(object):
     def __get_frequency_polarisation(self, values):
         """ parse frequency and polarisation from the first column of row """
         freq_pol = values[COL_FREQUENCY].find_all(text=True)
+        fixedfreqpol = [string.strip() for string in freq_pol]
+        freq_pol = fixedfreqpol
         if len(freq_pol) < 1:
             return
         if freq_pol[0][-1] in POLARISATION.keys():
@@ -454,7 +456,7 @@ class Transponder(object):
         if len(smp) < 1:
             return
         self.system = SYSTEMS.get(smp[0], 0)
-        safeint = lambda i: int(''.join(c for c in i if c.isdigit()))
+        safeint = lambda i: int(''.join(c for c in i if c.isdigit())) if i != '' else 0
         for line in smp[1:]:
             if 'Stream ' in line:
                 self.is_id = safeint(line[7:])
