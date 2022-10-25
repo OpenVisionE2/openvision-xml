@@ -139,31 +139,35 @@ class Lyngsat(object):
         urls = list(self.urls)
         __retries = {}
         for idx, url in enumerate(urls, 1):
-            eprint('Getting %s ... (%d of %d)' % (url, idx, cnt))
-            try:
-                sats = Satellites(url, self.feeds)
-            except (requests.exceptions.ConnectionError,
-                    requests.exceptions.HTTPError,
-                    SatelliteNameError) as cer:
-
-                if url not in __retries:
-                    __retries[url] = 0
-                else:
-                    __retries[url] += 1
-                if __retries[url] > MAX_RETRY:
-                    eprint("[ERR] Maximum retries of {} reached, skipping".format(url))
-                    continue
-
-                urls.append(url)
-                eprint('[WARN] Exception occured %s, will retry %s later...' %
-                       (repr(cer), url))
-                time.sleep(2 * SLEEP_TIMEOUT)
+            if url == 'ABS-2-2A.html':
+                eprint('Skipping %s ... (%d of %d)' % (url, idx, cnt))
                 continue
-            eprint(repr(sats))
-            for sat in sats:
-                eprint(repr(sat))
-                self.allsat.append(sat)
-            time.sleep(SLEEP_TIMEOUT)  # don't overload lyngsat
+            else:
+                eprint('Getting %s ... (%d of %d)' % (url, idx, cnt))
+                try:
+                    sats = Satellites(url, self.feeds)
+                except (requests.exceptions.ConnectionError,
+                        requests.exceptions.HTTPError,
+                        SatelliteNameError) as cer:
+
+                    if url not in __retries:
+                        __retries[url] = 0
+                    else:
+                        __retries[url] += 1
+                    if __retries[url] > MAX_RETRY:
+                        eprint("[ERR] Maximum retries of {} reached, skipping".format(url))
+                        continue
+
+                    urls.append(url)
+                    eprint('[WARN] Exception occured %s, will retry %s later...' %
+                           (repr(cer), url))
+                    time.sleep(2 * SLEEP_TIMEOUT)
+                    continue
+                eprint(repr(sats))
+                for sat in sats:
+                    eprint(repr(sat))
+                    self.allsat.append(sat)
+                time.sleep(SLEEP_TIMEOUT)  # don't overload lyngsat
 
     def __repr__(self):
         params = ('-'.join(self.__satlist), len(self.urls), len(self.allsat))
