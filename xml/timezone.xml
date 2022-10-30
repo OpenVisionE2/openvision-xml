@@ -176,7 +176,9 @@
 	<zone name="(GMT-02:00) South Georgia and the South Sandwich Islands" zone="Atlantic/South_Georgia" />
 	<zone name="(GMT-01:00) Cabo Verde" zone="Atlantic/Cape_Verde" />
 	<zone name="(GMT-01:00) Greenland: Scoresbysund" zone="America/Scoresbysund" />
+	<zone name="(GMT-01:00) Ireland" zone="Europe/Dublin" />
 	<zone name="(GMT-01:00) Portugal: Azores" zone="Atlantic/Azores" />
+	<zone name="(GMT) Antarctica: Troll" zone="Antarctica/Troll" />
 	<zone name="(GMT) Burkina Faso" zone="Africa/Ouagadougou" />
 	<zone name="(GMT) Faroe Islands" zone="Atlantic/Faroe" />
 	<zone name="(GMT) Gambia" zone="Africa/Banjul" />
@@ -205,7 +207,6 @@
 	<zone name="(GMT+01:00) Algeria" zone="Africa/Algiers" />
 	<zone name="(GMT+01:00) Andorra" zone="Europe/Andorra" />
 	<zone name="(GMT+01:00) Angola" zone="Africa/Luanda" />
-	<zone name="(GMT+01:00) Antarctica: Troll" zone="Antarctica/Troll" />
 	<zone name="(GMT+01:00) Austria" zone="Europe/Vienna" />
 	<zone name="(GMT+01:00) Belgium" zone="Europe/Brussels" />
 	<zone name="(GMT+01:00) Benin" zone="Africa/Porto-Novo" />
@@ -224,7 +225,6 @@
 	<zone name="(GMT+01:00) Germany: Busingen" zone="Europe/Busingen" />
 	<zone name="(GMT+01:00) Gibraltar" zone="Europe/Gibraltar" />
 	<zone name="(GMT+01:00) Hungary" zone="Europe/Budapest" />
-	<zone name="(GMT+01:00) Ireland" zone="Europe/Dublin" />
 	<zone name="(GMT+01:00) Italy" zone="Europe/Rome" />
 	<zone name="(GMT+01:00) Liechtenstein" zone="Europe/Vaduz" />
 	<zone name="(GMT+01:00) Luxembourg" zone="Europe/Luxembourg" />
@@ -263,7 +263,6 @@
 	<zone name="(GMT+02:00) Finland" zone="Europe/Helsinki" />
 	<zone name="(GMT+02:00) Greece" zone="Europe/Athens" />
 	<zone name="(GMT+02:00) Israel" zone="Asia/Jerusalem" />
-	<zone name="(GMT+02:00) Jordan" zone="Asia/Amman" />
 	<zone name="(GMT+02:00) Latvia" zone="Europe/Riga" />
 	<zone name="(GMT+02:00) Lebanon" zone="Asia/Beirut" />
 	<zone name="(GMT+02:00) Lesotho" zone="Africa/Maseru" />
@@ -281,7 +280,6 @@
 	<zone name="(GMT+02:00) South Africa" zone="Africa/Johannesburg" />
 	<zone name="(GMT+02:00) South Sudan" zone="Africa/Juba" />
 	<zone name="(GMT+02:00) Sudan" zone="Africa/Khartoum" />
-	<zone name="(GMT+02:00) Syria" zone="Asia/Damascus" />
 	<zone name="(GMT+02:00) Ukraine: Kyiv" zone="Europe/Kyiv" />
 	<zone name="(GMT+02:00) Zambia" zone="Africa/Lusaka" />
 	<zone name="(GMT+02:00) Zimbabwe" zone="Africa/Harare" />
@@ -293,6 +291,7 @@
 	<zone name="(GMT+03:00) Eritrea" zone="Africa/Asmara" />
 	<zone name="(GMT+03:00) Ethiopia" zone="Africa/Addis_Ababa" />
 	<zone name="(GMT+03:00) Iraq" zone="Asia/Baghdad" />
+	<zone name="(GMT+03:00) Jordan" zone="Asia/Amman" />
 	<zone name="(GMT+03:00) Kenya" zone="Africa/Nairobi" />
 	<zone name="(GMT+03:00) Kuwait" zone="Asia/Kuwait" />
 	<zone name="(GMT+03:00) Madagascar" zone="Indian/Antananarivo" />
@@ -303,6 +302,7 @@
 	<zone name="(GMT+03:00) Russia: Volgograd" zone="Europe/Volgograd" />
 	<zone name="(GMT+03:00) Saudi Arabia" zone="Asia/Riyadh" />
 	<zone name="(GMT+03:00) Somalia" zone="Africa/Mogadishu" />
+	<zone name="(GMT+03:00) Syria" zone="Asia/Damascus" />
 	<zone name="(GMT+03:00) Tanzania" zone="Africa/Dar_es_Salaam" />
 	<zone name="(GMT+03:00) Turkey" zone="Europe/Istanbul" />
 	<zone name="(GMT+03:00) Uganda" zone="Africa/Kampala" />
