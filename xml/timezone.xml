@@ -3,7 +3,7 @@
 <!--
 	This data has been extracted from the official IANA data
 	as distributed by TimezonesDB (https://timezonedb.com/) on
-	October 2022 by the program TimeZoneUpdater written by IanSav.
+	November 2022 by the program TimeZoneUpdater written by IanSav.
 
 	IMPORTANT NOTE: It is preferred that this file not be edited
 	except to bring it into line with future IANA updates.  If this
@@ -41,15 +41,12 @@
 	<zone name="(GMT-07:00) Canada: Inuvik" zone="America/Inuvik" />
 	<zone name="(GMT-07:00) Canada: Whitehorse" zone="America/Whitehorse" />
 	<zone name="(GMT-07:00) Canada: Yellowknife" zone="America/Yellowknife" />
-	<zone name="(GMT-07:00) Mexico: Chihuahua" zone="America/Chihuahua" />
 	<zone name="(GMT-07:00) Mexico: Hermosillo" zone="America/Hermosillo" />
 	<zone name="(GMT-07:00) Mexico: Mazatlan" zone="America/Mazatlan" />
-	<zone name="(GMT-07:00) Mexico: Ojinaga" zone="America/Ojinaga" />
 	<zone name="(GMT-07:00) United States: Boise" zone="America/Boise" />
 	<zone name="(GMT-07:00) United States: Denver" zone="America/Denver" />
 	<zone name="(GMT-07:00) United States: Phoenix" zone="America/Phoenix" />
 	<zone name="(GMT-06:00) Belize" zone="America/Belize" />
-	<zone name="(GMT-06:00) Canada: Rainy River" zone="America/Rainy_River" />
 	<zone name="(GMT-06:00) Canada: Rankin Inlet" zone="America/Rankin_Inlet" />
 	<zone name="(GMT-06:00) Canada: Regina" zone="America/Regina" />
 	<zone name="(GMT-06:00) Canada: Resolute" zone="America/Resolute" />
@@ -62,10 +59,12 @@
 	<zone name="(GMT-06:00) Guatemala" zone="America/Guatemala" />
 	<zone name="(GMT-06:00) Honduras" zone="America/Tegucigalpa" />
 	<zone name="(GMT-06:00) Mexico: Bahia Banderas" zone="America/Bahia_Banderas" />
+	<zone name="(GMT-06:00) Mexico: Chihuahua" zone="America/Chihuahua" />
 	<zone name="(GMT-06:00) Mexico: Matamoros" zone="America/Matamoros" />
 	<zone name="(GMT-06:00) Mexico: Merida" zone="America/Merida" />
 	<zone name="(GMT-06:00) Mexico: Mexico City" zone="America/Mexico_City" />
 	<zone name="(GMT-06:00) Mexico: Monterrey" zone="America/Monterrey" />
+	<zone name="(GMT-06:00) Mexico: Ojinaga" zone="America/Ojinaga" />
 	<zone name="(GMT-06:00) Nicaragua" zone="America/Managua" />
 	<zone name="(GMT-06:00) United States: Chicago" zone="America/Chicago" />
 	<zone name="(GMT-06:00) United States: Indiana; Knox" zone="America/Indiana/Knox" />
@@ -79,9 +78,7 @@
 	<zone name="(GMT-05:00) Brazil: Rio Branco" zone="America/Rio_Branco" />
 	<zone name="(GMT-05:00) Canada: Atikokan" zone="America/Atikokan" />
 	<zone name="(GMT-05:00) Canada: Iqaluit" zone="America/Iqaluit" />
-	<zone name="(GMT-05:00) Canada: Nipigon" zone="America/Nipigon" />
 	<zone name="(GMT-05:00) Canada: Pangnirtung" zone="America/Pangnirtung" />
-	<zone name="(GMT-05:00) Canada: Thunder Bay" zone="America/Thunder_Bay" />
 	<zone name="(GMT-05:00) Canada: Toronto" zone="America/Toronto" />
 	<zone name="(GMT-05:00) Cayman Islands" zone="America/Cayman" />
 	<zone name="(GMT-05:00) Colombia" zone="America/Bogota" />
