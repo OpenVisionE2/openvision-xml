@@ -101,6 +101,7 @@
 	<zone name="(GMT-05:00) United States: Kentucky; Monticello" zone="America/Kentucky/Monticello" />
 	<zone name="(GMT-05:00) United States: New York" zone="America/New_York" />
 	<zone name="(GMT-04:00) Anguilla" zone="America/Anguilla" />
+	<zone name="(GMT-04:00) Antarctica: Palmer" zone="Antarctica/Palmer" />
 	<zone name="(GMT-04:00) Antigua and Barbuda" zone="America/Antigua" />
 	<zone name="(GMT-04:00) Aruba" zone="America/Aruba" />
 	<zone name="(GMT-04:00) Barbados" zone="America/Barbados" />
@@ -140,7 +141,6 @@
 	<zone name="(GMT-04:00) U.S. Virgin Islands" zone="America/St_Thomas" />
 	<zone name="(GMT-04:00) Venezuela" zone="America/Caracas" />
 	<zone name="(GMT-03:30) Canada: St Johns" zone="America/St_Johns" />
-	<zone name="(GMT-03:00) Antarctica: Palmer" zone="Antarctica/Palmer" />
 	<zone name="(GMT-03:00) Antarctica: Rothera" zone="Antarctica/Rothera" />
 	<zone name="(GMT-03:00) Argentina: Buenos Aires" zone="America/Argentina/Buenos_Aires" />
 	<zone name="(GMT-03:00) Argentina: Catamarca" zone="America/Argentina/Catamarca" />
