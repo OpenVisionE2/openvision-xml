@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
     Grabber 12.2.0 for Open Vision
-    File created on 2022-11-27
+    File created on 2022-12-04
     BeautifulSoup Parser html5lib
     Lyngsat(regions=america, urls=51, satellites=59)
 -->
@@ -283,7 +283,6 @@
 		<transponder frequency="12151000" symbol_rate="2678000" polarization="0" fec_inner="2" system="1" modulation="2" />
 	</sat>
 	<sat name="114.9W C-band Eutelsat 115 West B" flags="1" position="-1150">
-		<transponder frequency="3860000" symbol_rate="30000000" polarization="1" fec_inner="4" system="1" modulation="2" />
 		<transponder frequency="4109000" symbol_rate="9600000" polarization="0" fec_inner="3" system="1" modulation="2" />
 		<transponder frequency="4124000" symbol_rate="3609000" polarization="0" fec_inner="3" system="1" modulation="2" />
 		<transponder frequency="4132000" symbol_rate="6400000" polarization="1" fec_inner="3" system="1" modulation="1" />
@@ -457,6 +456,7 @@
 		<transponder frequency="3944000" symbol_rate="2734000" polarization="0" fec_inner="4" system="0" modulation="1" />
 		<transponder frequency="3952000" symbol_rate="10000000" polarization="0" fec_inner="4" system="1" modulation="1" />
 		<transponder frequency="4005000" symbol_rate="4442000" polarization="1" fec_inner="3" system="0" modulation="1" />
+		<transponder frequency="4011000" symbol_rate="3333000" polarization="1" fec_inner="4" system="1" modulation="2" />
 		<transponder frequency="4020000" symbol_rate="30000000" polarization="0" fec_inner="4" system="1" modulation="2" />
 		<transponder frequency="4030000" symbol_rate="12400000" polarization="1" fec_inner="5" system="0" modulation="1" />
 		<transponder frequency="4048000" symbol_rate="15800000" polarization="1" fec_inner="4" system="1" modulation="2" />
