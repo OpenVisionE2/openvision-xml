@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
     Grabber 12.2.0 for Open Vision
-    File created on 2023-01-01
+    File created on 2023-01-03
     BeautifulSoup Parser html5lib
     Lyngsat(regions=asia, urls=67, satellites=81)
 -->
@@ -69,7 +69,6 @@
 		<transponder frequency="3844000" symbol_rate="4000000" polarization="1" fec_inner="3" system="1" modulation="1" />
 		<transponder frequency="3857000" symbol_rate="5925000" polarization="1" fec_inner="2" system="1" modulation="2" />
 		<transponder frequency="3873000" symbol_rate="8000000" polarization="1" fec_inner="7" system="1" modulation="2" />
-		<transponder frequency="3920000" symbol_rate="28340000" polarization="0" fec_inner="4" system="0" modulation="1" />
 		<transponder frequency="3960000" symbol_rate="30000000" polarization="0" fec_inner="3" system="1" modulation="2" />
 		<transponder frequency="4000000" symbol_rate="30000000" polarization="0" fec_inner="3" system="1" modulation="2" />
 		<transponder frequency="4006000" symbol_rate="8800000" polarization="1" fec_inner="7" system="1" modulation="2" />
@@ -668,7 +667,7 @@
 		<transponder frequency="12731000" symbol_rate="28860000" polarization="3" fec_inner="3" system="0" modulation="1" />
 	</sat>
 	<sat name="110.5E C-band ChinaSat 10" flags="1" position="1106">
-		<transponder frequency="3645000" symbol_rate="1666000" polarization="0" fec_inner="10" system="1" modulation="1" />
+		<transponder frequency="3645000" symbol_rate="1666000" polarization="0" fec_inner="4" system="1" modulation="1" />
 	</sat>
 	<sat name="113.0E Koreasat 5/5A" flags="1" position="1130">
 		<transponder frequency="11493000" symbol_rate="43200000" polarization="1" fec_inner="4" system="1" modulation="2" />
@@ -795,6 +794,8 @@
 		<transponder frequency="4660000" symbol_rate="17500000" polarization="1" fec_inner="8" system="1" modulation="2" />
 		<transponder frequency="4680000" symbol_rate="30000000" polarization="0" fec_inner="2" system="1" modulation="2" />
 		<transponder frequency="4720000" symbol_rate="30000000" polarization="0" fec_inner="3" system="1" modulation="2" />
+		<transponder frequency="4758000" symbol_rate="4160000" polarization="0" fec_inner="8" system="1" modulation="2" />
+		<transponder frequency="4764000" symbol_rate="4160000" polarization="0" fec_inner="8" system="1" modulation="2" />
 	</sat>
 	<sat name="120.0E C-band AsiaSat 6/Thaicom 7" flags="1" position="1201">
 		<transponder frequency="3740000" symbol_rate="27500000" polarization="0" fec_inner="5" system="0" modulation="1" />
