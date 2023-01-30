@@ -26,6 +26,7 @@ jobs:
         run: |
           sudo apt-get -q update
           sudo apt-get install dos2unix
+          sudo apt-get install python2
           pip install -r CI/requirements.txt
           pip install --upgrade pip six autopep8 future 2to3
           ./CI/build.sh
