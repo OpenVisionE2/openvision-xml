@@ -40,7 +40,7 @@
 	<zone name="(GMT-07:00) Canada: Fort Nelson" zone="America/Fort_Nelson" />
 	<zone name="(GMT-07:00) Canada: Inuvik" zone="America/Inuvik" />
 	<zone name="(GMT-07:00) Canada: Whitehorse" zone="America/Whitehorse" />
-	<zone name="(GMT-07:00) Canada: Yellowknife" zone="America/Yellowknife" />
+	<zone name="(GMT-07:00) Mexico: Ciudad Juarez" zone="America/Ciudad_Juarez" />
 	<zone name="(GMT-07:00) Mexico: Hermosillo" zone="America/Hermosillo" />
 	<zone name="(GMT-07:00) Mexico: Mazatlan" zone="America/Mazatlan" />
 	<zone name="(GMT-07:00) United States: Boise" zone="America/Boise" />
@@ -78,7 +78,6 @@
 	<zone name="(GMT-05:00) Brazil: Rio Branco" zone="America/Rio_Branco" />
 	<zone name="(GMT-05:00) Canada: Atikokan" zone="America/Atikokan" />
 	<zone name="(GMT-05:00) Canada: Iqaluit" zone="America/Iqaluit" />
-	<zone name="(GMT-05:00) Canada: Pangnirtung" zone="America/Pangnirtung" />
 	<zone name="(GMT-05:00) Canada: Toronto" zone="America/Toronto" />
 	<zone name="(GMT-05:00) Cayman Islands" zone="America/Cayman" />
 	<zone name="(GMT-05:00) Colombia" zone="America/Bogota" />
@@ -173,10 +172,8 @@
 	<zone name="(GMT-02:00) South Georgia and the South Sandwich Islands" zone="Atlantic/South_Georgia" />
 	<zone name="(GMT-01:00) Cabo Verde" zone="Atlantic/Cape_Verde" />
 	<zone name="(GMT-01:00) Greenland: Scoresbysund" zone="America/Scoresbysund" />
-	<zone name="(GMT-01:00) Ireland" zone="Europe/Dublin" />
 	<zone name="(GMT-01:00) Morocco" zone="Africa/El_Aaiun" />
 	<zone name="(GMT-01:00) Portugal: Azores" zone="Atlantic/Azores" />
-	<zone name="(GMT) Antarctica: Troll" zone="Antarctica/Troll" />
 	<zone name="(GMT) Burkina Faso" zone="Africa/Ouagadougou" />
 	<zone name="(GMT) Faroe Islands" zone="Atlantic/Faroe" />
 	<zone name="(GMT) Gambia" zone="Africa/Banjul" />
@@ -205,6 +202,7 @@
 	<zone name="(GMT+01:00) Algeria" zone="Africa/Algiers" />
 	<zone name="(GMT+01:00) Andorra" zone="Europe/Andorra" />
 	<zone name="(GMT+01:00) Angola" zone="Africa/Luanda" />
+	<zone name="(GMT+01:00) Antarctica: Troll" zone="Antarctica/Troll" />
 	<zone name="(GMT+01:00) Austria" zone="Europe/Vienna" />
 	<zone name="(GMT+01:00) Belgium" zone="Europe/Brussels" />
 	<zone name="(GMT+01:00) Benin" zone="Africa/Porto-Novo" />
@@ -223,6 +221,7 @@
 	<zone name="(GMT+01:00) Germany: Busingen" zone="Europe/Busingen" />
 	<zone name="(GMT+01:00) Gibraltar" zone="Europe/Gibraltar" />
 	<zone name="(GMT+01:00) Hungary" zone="Europe/Budapest" />
+	<zone name="(GMT+01:00) Ireland" zone="Europe/Dublin" />
 	<zone name="(GMT+01:00) Italy" zone="Europe/Rome" />
 	<zone name="(GMT+01:00) Liechtenstein" zone="Europe/Vaduz" />
 	<zone name="(GMT+01:00) Luxembourg" zone="Europe/Luxembourg" />
