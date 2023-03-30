@@ -41,7 +41,7 @@ FILE_HEADER = """<?xml version="1.0" encoding="UTF-8"?>
 
 <!--
 	This data has been extracted from the official IANA data
-	as distributed by TimezonesDB (https://timezonedb.com/) on
+	as distributed by TimezonesDB (https://timezonedb.com) on
 	%s by the program TimeZoneUpdater written by IanSav.
 
 	IMPORTANT NOTE: It is preferred that this file not be edited
