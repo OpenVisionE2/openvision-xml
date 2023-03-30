@@ -2,7 +2,7 @@
 
 <!--
 	This data has been extracted from the official IANA data
-	as distributed by TimezonesDB (https://timezonedb.com/) on
+	as distributed by TimezonesDB (https://timezonedb.com) on
 	March 2023 by the program TimeZoneUpdater written by IanSav.
 
 	IMPORTANT NOTE: It is preferred that this file not be edited
@@ -183,6 +183,7 @@
 	<zone name="(GMT) Guinea" zone="Africa/Conakry" />
 	<zone name="(GMT) Guinea-Bissau" zone="Africa/Bissau" />
 	<zone name="(GMT) Iceland" zone="Atlantic/Reykjavik" />
+	<zone name="(GMT) Ireland" zone="Europe/Dublin" />
 	<zone name="(GMT) Isle of Man" zone="Europe/Isle_of_Man" />
 	<zone name="(GMT) Ivory Coast" zone="Africa/Abidjan" />
 	<zone name="(GMT) Jersey" zone="Europe/Jersey" />
@@ -221,7 +222,6 @@
 	<zone name="(GMT+01:00) Germany: Busingen" zone="Europe/Busingen" />
 	<zone name="(GMT+01:00) Gibraltar" zone="Europe/Gibraltar" />
 	<zone name="(GMT+01:00) Hungary" zone="Europe/Budapest" />
-	<zone name="(GMT+01:00) Ireland" zone="Europe/Dublin" />
 	<zone name="(GMT+01:00) Italy" zone="Europe/Rome" />
 	<zone name="(GMT+01:00) Liechtenstein" zone="Europe/Vaduz" />
 	<zone name="(GMT+01:00) Luxembourg" zone="Europe/Luxembourg" />
