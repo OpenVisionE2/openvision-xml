@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
     Grabber 12.2.0 for Open Vision
-    File created on 2023-03-30
+    File created on 2023-04-02
     BeautifulSoup Parser html5lib
     Lyngsat(regions=asia, urls=68, satellites=81)
 -->
@@ -1049,8 +1049,6 @@
 		<transponder frequency="3532000" symbol_rate="13330000" polarization="0" fec_inner="7" system="1" modulation="2" />
 	</sat>
 	<sat name="152.0E Optus D2" flags="1" position="1520">
-		<transponder frequency="12519000" symbol_rate="22500000" polarization="1" fec_inner="3" system="0" modulation="1" />
-		<transponder frequency="12546000" symbol_rate="22500000" polarization="1" fec_inner="3" system="0" modulation="1" />
 		<transponder frequency="12608000" symbol_rate="22500000" polarization="0" fec_inner="3" system="0" modulation="1" />
 	</sat>
 	<sat name="154.0E Ku-band JCSAT 2B" flags="1" position="1540">
