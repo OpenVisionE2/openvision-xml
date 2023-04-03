@@ -101,7 +101,7 @@ zoneNameReMap = {
 	"Pacific/Wake": "United States Minor Outlying Islands: Wake Island",
 }
 
-print("TimeZoneUpdater version 1.1  -  Copyright (C) 2021  IanSav.\n")
+print("TimeZoneUpdater version 1.2  -  Copyright (C) 2021  IanSav.\n")
 print("This program comes with ABSOLUTELY NO WARRANTY.")
 print("This is free software, and you are welcome to redistribute it under")
 print("certain conditions.  See source code and GNUv3 for details.\n")
