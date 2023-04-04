@@ -33,8 +33,9 @@ try:
 except ImportError:
 	from urllib2 import urlopen
 from xml.etree.cElementTree import ParseError, fromstring
+from babel import languages
 
-TIMEZONEDB_FETCH = "http://api.timezonedb.com/v2.1/list-time-zone?key=%s&format=xml&fields=countryName,zoneName,gmtOffset,dst"
+TIMEZONEDB_FETCH = "http://api.timezonedb.com/v2.1/list-time-zone?key=%s&format=xml&fields=countryCode,countryName,zoneName,gmtOffset,dst"
 OUTPUT_FILE = "timezone.xml"
 TIMEZONEBASE = "GMT"  # Some prefer "UTC".
 FILE_HEADER = """<?xml version="1.0" encoding="UTF-8"?>
@@ -100,7 +101,7 @@ zoneNameReMap = {
 	"Pacific/Wake": "United States Minor Outlying Islands: Wake Island",
 }
 
-print("TimeZoneUpdater version 1.1  -  Copyright (C) 2021  IanSav.\n")
+print("TimeZoneUpdater version 1.2  -  Copyright (C) 2021  IanSav.\n")
 print("This program comes with ABSOLUTELY NO WARRANTY.")
 print("This is free software, and you are welcome to redistribute it under")
 print("certain conditions.  See source code and GNUv3 for details.\n")
@@ -125,6 +126,12 @@ timeZoneDom = timeZoneDom.find("zones")
 timeZoneData = {}
 print("Preparing time zone file...")
 for zoneElement in timeZoneDom.findall("zone"):
+	countryCode = zoneElement.find("countryCode").text
+	languageCode = "en"
+	for l in languages.get_official_languages(countryCode, de_facto=True):
+		languageCode = l
+		break
+	localeCode = "%s_%s" % (languageCode, countryCode)
 	countryName = zoneElement.find("countryName").text
 	zoneName = zoneElement.find("zoneName").text
 	gmtOffset = zoneElement.find("gmtOffset").text
@@ -147,7 +154,7 @@ for zoneElement in timeZoneDom.findall("zone"):
 	offset = "%+03d:%02d" % (int(data[0]), int(data[1]))
 	if offset == "+00:00":
 		offset = ""
-	timeZoneData["%06d%s" % (gmtOffset + 100000, countryName)] = "\t<zone name=\"(%s%s) %s\" zone=\"%s\" />" % (TIMEZONEBASE, offset, countryName, zoneName)
+	timeZoneData["%06d%s" % (gmtOffset + 100000, countryName)] = "\t<zone name=\"(%s%s) %s\" zone=\"%s\" countryCode=\"%s\" languageCode=\"%s\" localeCode=\"%s\" />" % (TIMEZONEBASE, offset, countryName, zoneName, countryCode, languageCode, localeCode)
 timeZones = []
 for timeZoneItem in sorted(list(timeZoneData.keys())):
 	timeZones.append(timeZoneData[timeZoneItem])
