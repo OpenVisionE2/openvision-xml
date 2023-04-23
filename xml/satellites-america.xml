@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
     Grabber 12.2.0 for Open Vision
-    File created on 2023-04-16
+    File created on 2023-04-23
     BeautifulSoup Parser html5lib
-    Lyngsat(regions=america, urls=51, satellites=57)
+    Lyngsat(regions=america, urls=53, satellites=57)
 -->
 <satellites>
 	<sat name="139.0W C-band AMC 6" flags="1" position="-1391">
@@ -429,8 +429,8 @@
 		<transponder frequency="12140000" symbol_rate="30000000" polarization="1" fec_inner="3" system="1" modulation="2" />
 	</sat>
 	<sat name="97.0W C-band Galaxy 19" flags="1" position="-971">
-		<transponder frequency="3780000" symbol_rate="6522000" polarization="0" fec_inner="4" system="1" modulation="2" />
 		<transponder frequency="3809000" symbol_rate="10890000" polarization="0" fec_inner="7" system="1" modulation="2" />
+		<transponder frequency="3861000" symbol_rate="6522000" polarization="0" fec_inner="4" system="1" modulation="2" />
 		<transponder frequency="3913000" symbol_rate="8400000" polarization="0" fec_inner="7" system="1" modulation="2" />
 		<transponder frequency="4009000" symbol_rate="15000000" polarization="1" fec_inner="4" system="1" modulation="2" />
 		<transponder frequency="4032000" symbol_rate="9600000" polarization="0" fec_inner="4" system="1" modulation="2" />
@@ -859,7 +859,6 @@
 	</sat>
 	<sat name="63.0W Telstar 14R" flags="1" position="-630">
 		<transponder frequency="11564000" symbol_rate="3320000" polarization="0" fec_inner="1" system="1" modulation="1" />
-		<transponder frequency="11592000" symbol_rate="5166000" polarization="1" fec_inner="2" system="1" modulation="2" />
 		<transponder frequency="11870000" symbol_rate="3200000" polarization="0" fec_inner="2" system="0" modulation="1" />
 		<transponder frequency="11875000" symbol_rate="5832000" polarization="0" fec_inner="3" system="1" modulation="2" />
 	</sat>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
     Grabber 12.2.0 for Open Vision
-    File created on 2023-04-16
+    File created on 2023-04-23
     BeautifulSoup Parser html5lib
     Lyngsat(regions=atlantic, urls=27, satellites=40)
 -->
@@ -352,6 +352,7 @@
 	</sat>
 	<sat name="31.5W Ku-band Intelsat 25" flags="1" position="-315">
 		<transponder frequency="12284000" symbol_rate="2200000" polarization="1" fec_inner="2" system="1" modulation="1" />
+		<transponder frequency="12332000" symbol_rate="2500000" polarization="1" fec_inner="3" system="1" modulation="1" />
 		<transponder frequency="12339000" symbol_rate="8574000" polarization="1" fec_inner="4" system="1" modulation="1" />
 	</sat>
 	<sat name="30.0W Hispasat 30W-5/30W-6" flags="1" position="-300">
