@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
     Grabber 12.2.0 for Open Vision
-    File created on 2023-08-20
+    File created on 2023-08-27
     BeautifulSoup Parser html5lib
     Lyngsat(regions=atlantic, urls=30, satellites=39)
 -->
@@ -495,7 +495,7 @@
 		<transponder frequency="11479000" symbol_rate="2646000" polarization="1" fec_inner="8" system="1" modulation="1" />
 		<transponder frequency="11484000" symbol_rate="3535000" polarization="0" fec_inner="7" system="1" modulation="1" />
 		<transponder frequency="11541000" symbol_rate="8264000" polarization="0" fec_inner="3" system="1" modulation="1" />
-		<transponder frequency="11638000" symbol_rate="30000000" polarization="1" fec_inner="0" system="1" modulation="1" />
+		<transponder frequency="11633000" symbol_rate="13880000" polarization="1" fec_inner="1" system="1" modulation="1" />
 		<transponder frequency="11671000" symbol_rate="16600000" polarization="0" fec_inner="3" system="1" modulation="2" />
 		<transponder frequency="11689000" symbol_rate="12110000" polarization="0" fec_inner="3" system="0" modulation="1" />
 	</sat>
@@ -708,9 +708,9 @@
 		<transponder frequency="11132000" symbol_rate="30000000" polarization="0" fec_inner="3" system="1" modulation="1" />
 		<transponder frequency="11168000" symbol_rate="30000000" polarization="0" fec_inner="2" system="1" modulation="1" />
 		<transponder frequency="11168000" symbol_rate="30000000" polarization="0" fec_inner="3" system="1" modulation="1" />
-		<transponder frequency="11463000" symbol_rate="2916000" polarization="0" fec_inner="3" system="1" modulation="1" />
-		<transponder frequency="11466000" symbol_rate="1666000" polarization="0" fec_inner="4" system="1" modulation="2" />
 		<transponder frequency="11468000" symbol_rate="1666000" polarization="0" fec_inner="3" system="0" modulation="1" />
+		<transponder frequency="11614000" symbol_rate="2916000" polarization="0" fec_inner="3" system="1" modulation="1" />
+		<transponder frequency="11617000" symbol_rate="1666000" polarization="0" fec_inner="4" system="1" modulation="2" />
 	</sat>
 	<sat name="0.8W C-band Thor 5/6/7 &amp; Intelsat 10-02" flags="1" position="-9">
 		<transponder frequency="3977000" symbol_rate="17777000" polarization="2" fec_inner="3" system="0" modulation="1" />
