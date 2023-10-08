@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
     Grabber 12.2.0 for Open Vision
-    File created on 2023-10-01
+    File created on 2023-10-08
     BeautifulSoup Parser html5lib
     Lyngsat(regions=america, urls=52, satellites=56)
 -->
@@ -402,7 +402,7 @@
 		<transponder frequency="11960000" symbol_rate="22000000" polarization="1" fec_inner="5" system="0" modulation="1" />
 		<transponder frequency="11966000" symbol_rate="21600000" polarization="0" fec_inner="4" system="0" modulation="1" />
 		<transponder frequency="11987000" symbol_rate="3977000" polarization="1" fec_inner="0" system="0" modulation="1" />
-		<transponder frequency="12028000" symbol_rate="22000000" polarization="0" fec_inner="4" system="0" modulation="1" />
+		<transponder frequency="12028000" symbol_rate="22000000" polarization="0" fec_inner="3" system="1" modulation="2" />
 		<transponder frequency="12053000" symbol_rate="22000000" polarization="1" fec_inner="3" system="0" modulation="1" />
 		<transponder frequency="12060000" symbol_rate="22000000" polarization="0" fec_inner="3" system="0" modulation="1" />
 		<transponder frequency="12084000" symbol_rate="20760000" polarization="1" fec_inner="3" system="0" modulation="1" />
@@ -542,6 +542,7 @@
 	</sat>
 	<sat name="77.0W QuetzSat 1" flags="1" position="-770">
 		<transponder frequency="12253000" symbol_rate="20000000" polarization="3" fec_inner="5" system="0" modulation="1" />
+		<transponder frequency="12276000" symbol_rate="10500000" polarization="3" fec_inner="3" system="1" modulation="2" />
 		<transponder frequency="12297000" symbol_rate="20000000" polarization="2" fec_inner="5" system="0" modulation="1" />
 		<transponder frequency="12399000" symbol_rate="20000000" polarization="3" fec_inner="1" system="0" modulation="1" />
 		<transponder frequency="12428000" symbol_rate="20000000" polarization="3" fec_inner="5" system="0" modulation="1" />
