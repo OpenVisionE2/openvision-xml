@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
     Grabber 12.2.0 for Open Vision
-    File created on 2023-11-12
+    File created on 2023-11-19
     BeautifulSoup Parser html5lib
     Lyngsat(regions=asia, urls=66, satellites=78)
 -->
@@ -1155,6 +1155,7 @@
 	</sat>
 	<sat name="166.0E C-band Intelsat 19" flags="1" position="1661">
 		<transponder frequency="3840000" symbol_rate="30000000" polarization="1" fec_inner="3" system="1" modulation="2" />
+		<transponder frequency="3882000" symbol_rate="3960000" polarization="1" fec_inner="3" system="1" modulation="1" />
 		<transponder frequency="3900000" symbol_rate="30000000" polarization="0" fec_inner="2" system="1" modulation="2" />
 		<transponder frequency="3920000" symbol_rate="28800000" polarization="1" fec_inner="7" system="1" modulation="1" />
 		<transponder frequency="3930000" symbol_rate="15000000" polarization="0" fec_inner="3" system="1" modulation="2" />
@@ -1176,6 +1177,7 @@
 		<transponder frequency="12720000" symbol_rate="3000000" polarization="0" fec_inner="1" system="1" modulation="1" />
 	</sat>
 	<sat name="172.0E C-band Eutelsat 172B" flags="1" position="1721">
+		<transponder frequency="3888000" symbol_rate="10414000" polarization="0" fec_inner="4" system="1" modulation="2" />
 		<transponder frequency="3916000" symbol_rate="3330000" polarization="0" fec_inner="3" system="1" modulation="1" />
 		<transponder frequency="3926000" symbol_rate="5832000" polarization="1" fec_inner="4" system="1" modulation="2" />
 		<transponder frequency="3947000" symbol_rate="15000000" polarization="0" fec_inner="7" system="1" modulation="2" />
