@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
     Grabber 12.2.0 for Open Vision
-    File created on 2023-12-17
+    File created on 2023-12-24
     BeautifulSoup Parser html5lib
-    Lyngsat(regions=america, urls=53, satellites=55)
+    Lyngsat(regions=america, urls=52, satellites=55)
 -->
 <satellites>
 	<sat name="139.0W C-band AMC 6" flags="1" position="-1391">
@@ -822,7 +822,6 @@
 		<transponder frequency="4745000" symbol_rate="3750000" polarization="0" fec_inner="3" system="1" modulation="2" />
 		<transponder frequency="4750000" symbol_rate="3730000" polarization="0" fec_inner="3" system="1" modulation="2" />
 		<transponder frequency="4765000" symbol_rate="3750000" polarization="0" fec_inner="3" system="1" modulation="2" />
-		<transponder frequency="4774000" symbol_rate="3750000" polarization="0" fec_inner="3" system="1" modulation="2" />
 	</sat>
 	<sat name="65.1W Ku-band Star One C2 &amp; Eutelsat 65 West A" flags="1" position="-651">
 		<transponder frequency="11304000" symbol_rate="30000000" polarization="0" fec_inner="7" system="1" modulation="2" />
