@@ -319,6 +319,7 @@
 	<zone name="(GMT+04:00) United Arab Emirates" zone="Asia/Dubai" countryCode="AE" languageCode="ar" localeCode="ar_AE" />
 	<zone name="(GMT+04:30) Afghanistan" zone="Asia/Kabul" countryCode="AF" languageCode="fa" localeCode="fa_AF" />
 	<zone name="(GMT+05:00) Antarctica: Mawson" zone="Antarctica/Mawson" countryCode="AQ" languageCode="en" localeCode="en_AQ" />
+	<zone name="(GMT+05:00) Antarctica: Vostok" zone="Antarctica/Vostok" countryCode="AQ" languageCode="en" localeCode="en_AQ" />
 	<zone name="(GMT+05:00) French Southern Territories" zone="Indian/Kerguelen" countryCode="TF" languageCode="en" localeCode="en_TF" />
 	<zone name="(GMT+05:00) Kazakhstan: Aqtau" zone="Asia/Aqtau" countryCode="KZ" languageCode="ru" localeCode="ru_KZ" />
 	<zone name="(GMT+05:00) Kazakhstan: Aqtobe" zone="Asia/Aqtobe" countryCode="KZ" languageCode="ru" localeCode="ru_KZ" />
@@ -335,7 +336,6 @@
 	<zone name="(GMT+05:30) India" zone="Asia/Kolkata" countryCode="IN" languageCode="hi" localeCode="hi_IN" />
 	<zone name="(GMT+05:30) Sri Lanka" zone="Asia/Colombo" countryCode="LK" languageCode="si" localeCode="si_LK" />
 	<zone name="(GMT+05:45) Nepal" zone="Asia/Kathmandu" countryCode="NP" languageCode="ne" localeCode="ne_NP" />
-	<zone name="(GMT+06:00) Antarctica: Vostok" zone="Antarctica/Vostok" countryCode="AQ" languageCode="en" localeCode="en_AQ" />
 	<zone name="(GMT+06:00) Bangladesh" zone="Asia/Dhaka" countryCode="BD" languageCode="bn" localeCode="bn_BD" />
 	<zone name="(GMT+06:00) Bhutan" zone="Asia/Thimphu" countryCode="BT" languageCode="dz" localeCode="dz_BT" />
 	<zone name="(GMT+06:00) British Indian Ocean Territory" zone="Indian/Chagos" countryCode="IO" languageCode="en" localeCode="en_IO" />
@@ -360,6 +360,7 @@
 	<zone name="(GMT+07:00) Russia: Tomsk" zone="Asia/Tomsk" countryCode="RU" languageCode="ru" localeCode="ru_RU" />
 	<zone name="(GMT+07:00) Thailand" zone="Asia/Bangkok" countryCode="TH" languageCode="th" localeCode="th_TH" />
 	<zone name="(GMT+07:00) Vietnam" zone="Asia/Ho_Chi_Minh" countryCode="VN" languageCode="vi" localeCode="vi_VN" />
+	<zone name="(GMT+08:00) Antarctica: Casey" zone="Antarctica/Casey" countryCode="AQ" languageCode="en" localeCode="en_AQ" />
 	<zone name="(GMT+08:00) Australia: Perth" zone="Australia/Perth" countryCode="AU" languageCode="en" localeCode="en_AU" />
 	<zone name="(GMT+08:00) Brunei" zone="Asia/Brunei" countryCode="BN" languageCode="ms" localeCode="ms_BN" />
 	<zone name="(GMT+08:00) China: Shanghai" zone="Asia/Shanghai" countryCode="CN" languageCode="zh" localeCode="zh_CN" />
@@ -401,7 +402,6 @@
 	<zone name="(GMT+10:00) Papua New Guinea: Port Moresby" zone="Pacific/Port_Moresby" countryCode="PG" languageCode="tpi" localeCode="tpi_PG" />
 	<zone name="(GMT+10:00) Russia: Ust-Nera" zone="Asia/Ust-Nera" countryCode="RU" languageCode="ru" localeCode="ru_RU" />
 	<zone name="(GMT+10:00) Russia: Vladivostok" zone="Asia/Vladivostok" countryCode="RU" languageCode="ru" localeCode="ru_RU" />
-	<zone name="(GMT+11:00) Antarctica: Casey" zone="Antarctica/Casey" countryCode="AQ" languageCode="en" localeCode="en_AQ" />
 	<zone name="(GMT+11:00) Micronesia: Kosrae" zone="Pacific/Kosrae" countryCode="FM" languageCode="en" localeCode="en_FM" />
 	<zone name="(GMT+11:00) Micronesia: Pohnpei" zone="Pacific/Pohnpei" countryCode="FM" languageCode="en" localeCode="en_FM" />
 	<zone name="(GMT+11:00) New Caledonia" zone="Pacific/Noumea" countryCode="NC" languageCode="fr" localeCode="fr_NC" />
