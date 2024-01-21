@@ -1,4 +1,4 @@
-Id	Part2b	Part2t	Part1	Scope	Language  Type	Ref  Name	Comment
+Id	Part2b	Part2t	Part1	Scope	Language_Type	Ref_Name	Comment
 aaa				I	L	Ghotuo	
 aab				I	L	Alumu-Tesu	
 aac				I	L	Ari	
@@ -233,7 +233,7 @@ alq				I	L	Algonquin
 alr				I	L	Alutor	
 als				I	L	Tosk Albanian	
 alt	alt	alt		I	L	Southern Altai	
-alu				I	L	Are'are	
+alu				I	L	'Are'are	
 alw				I	L	Alaba-K’abeena	
 alx				I	L	Amol	
 aly				I	L	Alyawarr	
@@ -3331,7 +3331,7 @@ ktz				I	L	Juǀʼhoan
 kua	kua	kua	kj	I	L	Kuanyama	
 kub				I	L	Kutep	
 kuc				I	L	Kwinsu	
-kud				I	L	Auhelawa	
+kud				I	L	'Auhelawa	
 kue				I	L	Kuman (Papua New Guinea)	
 kuf				I	L	Western Katu	
 kug				I	L	Kupa	
@@ -5701,7 +5701,7 @@ sah	sah	sah		I	L	Yakut
 saj				I	L	Sahu	
 sak				I	L	Sake	
 sam	sam	sam		I	E	Samaritan Aramaic	
-san	san	san	sa	I	H	Sanskrit	
+san	san	san	sa	M	H	Sanskrit	
 sao				I	L	Sause	
 saq				I	L	Samburu	
 sar				I	E	Saraveca	
@@ -7568,7 +7568,6 @@ ygu				I	L	Yugul
 ygw				I	L	Yagwoia	
 yha				I	L	Baha Buyang	
 yhd				I	L	Judeo-Iraqi Arabic	
-yhk				I	L	Khamnigan Mongol	
 yhl				I	L	Hlepho Phowa	
 yhs				I	L	Yan-nhaŋu Sign Language	
 yia				I	L	Yinggarda	
