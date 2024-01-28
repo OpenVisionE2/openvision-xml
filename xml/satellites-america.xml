@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
     Grabber 12.2.0 for Open Vision
-    File created on 2024-01-21
+    File created on 2024-01-28
     BeautifulSoup Parser html5lib
     Lyngsat(regions=america, urls=52, satellites=53)
 -->
@@ -172,7 +172,7 @@
 		<transponder frequency="3797000" symbol_rate="4090000" polarization="0" fec_inner="3" system="1" modulation="2" />
 		<transponder frequency="3799000" symbol_rate="1660000" polarization="1" fec_inner="7" system="1" modulation="2" />
 		<transponder frequency="3810000" symbol_rate="15000000" polarization="1" fec_inner="3" system="1" modulation="2" />
-		<transponder frequency="3845000" symbol_rate="3333000" polarization="0" fec_inner="7" system="1" modulation="2" />
+		<transponder frequency="3845000" symbol_rate="3500000" polarization="0" fec_inner="3" system="1" modulation="2" />
 		<transponder frequency="3849000" symbol_rate="2800000" polarization="0" fec_inner="4" system="1" modulation="2" />
 		<transponder frequency="3852000" symbol_rate="2082000" polarization="0" fec_inner="3" system="1" modulation="2" />
 		<transponder frequency="3855000" symbol_rate="1667000" polarization="0" fec_inner="2" system="1" modulation="2" />
@@ -196,6 +196,7 @@
 		<transponder frequency="3917000" symbol_rate="4000000" polarization="0" fec_inner="3" system="1" modulation="2" />
 		<transponder frequency="3917000" symbol_rate="4500000" polarization="1" fec_inner="3" system="1" modulation="2" />
 		<transponder frequency="3924000" symbol_rate="7257000" polarization="1" fec_inner="6" system="1" modulation="2" />
+		<transponder frequency="3925000" symbol_rate="4400000" polarization="0" fec_inner="3" system="0" modulation="1" />
 		<transponder frequency="3930000" symbol_rate="667000" polarization="1" fec_inner="0" system="1" modulation="2" />
 		<transponder frequency="3938000" symbol_rate="674000" polarization="1" fec_inner="0" system="1" modulation="1" />
 		<transponder frequency="3947000" symbol_rate="8333000" polarization="1" fec_inner="4" system="1" modulation="2" />
@@ -366,6 +367,7 @@
 	</sat>
 	<sat name="99.2W C-band Galaxy 16 &amp; T11/T14" flags="1" position="-993">
 		<transponder frequency="3855000" symbol_rate="1667000" polarization="1" fec_inner="4" system="1" modulation="2" />
+		<transponder frequency="3866000" symbol_rate="17140000" polarization="1" fec_inner="4" system="1" modulation="4" />
 		<transponder frequency="3940000" symbol_rate="34286000" polarization="1" fec_inner="4" system="1" modulation="4" />
 		<transponder frequency="4037000" symbol_rate="1266000" polarization="1" fec_inner="6" system="1" modulation="4" />
 		<transponder frequency="4040000" symbol_rate="26400000" polarization="0" fec_inner="3" system="0" modulation="1" />

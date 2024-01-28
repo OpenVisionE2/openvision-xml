@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
     Grabber 12.2.0 for Open Vision
-    File created on 2024-01-21
+    File created on 2024-01-28
     BeautifulSoup Parser html5lib
     Lyngsat(regions=atlantic, urls=28, satellites=39)
 -->
@@ -181,6 +181,7 @@
 		<transponder frequency="3843000" symbol_rate="7500000" polarization="0" fec_inner="3" system="1" modulation="2" />
 		<transponder frequency="3844000" symbol_rate="2500000" polarization="1" fec_inner="0" system="1" modulation="2" />
 		<transponder frequency="3852000" symbol_rate="10000000" polarization="1" fec_inner="2" system="1" modulation="2" />
+		<transponder frequency="3865000" symbol_rate="3910000" polarization="0" fec_inner="3" system="1" modulation="2" />
 		<transponder frequency="3869000" symbol_rate="5417000" polarization="0" fec_inner="3" system="1" modulation="2" />
 		<transponder frequency="3945000" symbol_rate="13332000" polarization="1" fec_inner="2" system="1" modulation="2" />
 		<transponder frequency="3971000" symbol_rate="2400000" polarization="1" fec_inner="7" system="1" modulation="2" />
@@ -514,6 +515,7 @@
 		<transponder frequency="3925000" symbol_rate="30000000" polarization="3" fec_inner="4" system="1" modulation="1" />
 		<transponder frequency="3964000" symbol_rate="4166000" polarization="3" fec_inner="1" system="1" modulation="1" />
 		<transponder frequency="3977000" symbol_rate="3410000" polarization="3" fec_inner="2" system="1" modulation="2" />
+		<transponder frequency="3986000" symbol_rate="4543000" polarization="3" fec_inner="3" system="1" modulation="1" />
 	</sat>
 	<sat name="8.0W Ku-band Eutelsat 8 West B" flags="1" position="-80">
 		<transponder frequency="10971000" symbol_rate="27500000" polarization="0" fec_inner="5" system="0" modulation="1" />
