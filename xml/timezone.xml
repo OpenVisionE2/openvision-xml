@@ -3,7 +3,7 @@
 <!--
 	This data has been extracted from the official IANA data
 	as distributed by TimezonesDB (https://timezonedb.com) on
-	February 2024 by the program TimeZoneUpdater written by IanSav.
+	March 2024 by the program TimeZoneUpdater written by IanSav.
 
 	IMPORTANT NOTE: It is preferred that this file not be edited
 	except to bring it into line with future IANA updates.  If this
@@ -321,10 +321,12 @@
 	<zone name="(GMT+05:00) Antarctica: Mawson" zone="Antarctica/Mawson" countryCode="AQ" languageCode="en" localeCode="en_AQ" />
 	<zone name="(GMT+05:00) Antarctica: Vostok" zone="Antarctica/Vostok" countryCode="AQ" languageCode="en" localeCode="en_AQ" />
 	<zone name="(GMT+05:00) French Southern Territories" zone="Indian/Kerguelen" countryCode="TF" languageCode="en" localeCode="en_TF" />
+	<zone name="(GMT+05:00) Kazakhstan: Almaty" zone="Asia/Almaty" countryCode="KZ" languageCode="ru" localeCode="ru_KZ" />
 	<zone name="(GMT+05:00) Kazakhstan: Aqtau" zone="Asia/Aqtau" countryCode="KZ" languageCode="ru" localeCode="ru_KZ" />
 	<zone name="(GMT+05:00) Kazakhstan: Aqtobe" zone="Asia/Aqtobe" countryCode="KZ" languageCode="ru" localeCode="ru_KZ" />
 	<zone name="(GMT+05:00) Kazakhstan: Atyrau" zone="Asia/Atyrau" countryCode="KZ" languageCode="ru" localeCode="ru_KZ" />
 	<zone name="(GMT+05:00) Kazakhstan: Oral" zone="Asia/Oral" countryCode="KZ" languageCode="ru" localeCode="ru_KZ" />
+	<zone name="(GMT+05:00) Kazakhstan: Qostanay" zone="Asia/Qostanay" countryCode="KZ" languageCode="ru" localeCode="ru_KZ" />
 	<zone name="(GMT+05:00) Kazakhstan: Qyzylorda" zone="Asia/Qyzylorda" countryCode="KZ" languageCode="ru" localeCode="ru_KZ" />
 	<zone name="(GMT+05:00) Maldives" zone="Indian/Maldives" countryCode="MV" languageCode="dv" localeCode="dv_MV" />
 	<zone name="(GMT+05:00) Pakistan" zone="Asia/Karachi" countryCode="PK" languageCode="ur" localeCode="ur_PK" />
@@ -340,8 +342,6 @@
 	<zone name="(GMT+06:00) Bhutan" zone="Asia/Thimphu" countryCode="BT" languageCode="dz" localeCode="dz_BT" />
 	<zone name="(GMT+06:00) British Indian Ocean Territory" zone="Indian/Chagos" countryCode="IO" languageCode="en" localeCode="en_IO" />
 	<zone name="(GMT+06:00) China: Urumqi" zone="Asia/Urumqi" countryCode="CN" languageCode="zh" localeCode="zh_CN" />
-	<zone name="(GMT+06:00) Kazakhstan: Almaty" zone="Asia/Almaty" countryCode="KZ" languageCode="ru" localeCode="ru_KZ" />
-	<zone name="(GMT+06:00) Kazakhstan: Qostanay" zone="Asia/Qostanay" countryCode="KZ" languageCode="ru" localeCode="ru_KZ" />
 	<zone name="(GMT+06:00) Kyrgyzstan" zone="Asia/Bishkek" countryCode="KG" languageCode="ky" localeCode="ky_KG" />
 	<zone name="(GMT+06:00) Russia: Omsk" zone="Asia/Omsk" countryCode="RU" languageCode="ru" localeCode="ru_RU" />
 	<zone name="(GMT+06:30) Cocos Islands" zone="Indian/Cocos" countryCode="CC" languageCode="en" localeCode="en_CC" />
