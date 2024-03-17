@@ -172,6 +172,7 @@
 	<zone name="(GMT-02:00) South Georgia and the South Sandwich Islands" zone="Atlantic/South_Georgia" countryCode="GS" languageCode="en" localeCode="en_GS" />
 	<zone name="(GMT-01:00) Cabo Verde" zone="Atlantic/Cape_Verde" countryCode="CV" languageCode="pt" localeCode="pt_CV" />
 	<zone name="(GMT-01:00) Greenland: Scoresbysund" zone="America/Scoresbysund" countryCode="GL" languageCode="kl" localeCode="kl_GL" />
+	<zone name="(GMT-01:00) Morocco" zone="Africa/El_Aaiun" countryCode="MA" languageCode="ar" localeCode="ar_MA" />
 	<zone name="(GMT-01:00) Portugal: Azores" zone="Atlantic/Azores" countryCode="PT" languageCode="pt" localeCode="pt_PT" />
 	<zone name="(GMT) Antarctica: Troll" zone="Antarctica/Troll" countryCode="AQ" languageCode="en" localeCode="en_AQ" />
 	<zone name="(GMT) Burkina Faso" zone="Africa/Ouagadougou" countryCode="BF" languageCode="fr" localeCode="fr_BF" />
@@ -227,7 +228,6 @@
 	<zone name="(GMT+01:00) Malta" zone="Europe/Malta" countryCode="MT" languageCode="mt" localeCode="mt_MT" />
 	<zone name="(GMT+01:00) Monaco" zone="Europe/Monaco" countryCode="MC" languageCode="fr" localeCode="fr_MC" />
 	<zone name="(GMT+01:00) Montenegro" zone="Europe/Podgorica" countryCode="ME" languageCode="sr_Latn" localeCode="sr_Latn_ME" />
-	<zone name="(GMT+01:00) Morocco" zone="Africa/El_Aaiun" countryCode="MA" languageCode="ar" localeCode="ar_MA" />
 	<zone name="(GMT+01:00) Netherlands" zone="Europe/Amsterdam" countryCode="NL" languageCode="nl" localeCode="nl_NL" />
 	<zone name="(GMT+01:00) Niger" zone="Africa/Niamey" countryCode="NE" languageCode="fr" localeCode="fr_NE" />
 	<zone name="(GMT+01:00) Nigeria" zone="Africa/Lagos" countryCode="NG" languageCode="en" localeCode="en_NG" />
