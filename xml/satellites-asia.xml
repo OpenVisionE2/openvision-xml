@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
     Grabber 12.2.0 for Open Vision
-    File created on 2024-03-10
+    File created on 2024-03-17
     BeautifulSoup Parser html5lib
-    Lyngsat(regions=asia, urls=66, satellites=78)
+    Lyngsat(regions=asia, urls=67, satellites=78)
 -->
 <satellites>
 	<sat name="177.0W C-band NSS 9" flags="1" position="-1771">
@@ -1037,6 +1037,7 @@
 		<transponder frequency="3766000" symbol_rate="15285000" polarization="3" fec_inner="3" system="1" modulation="2" t2mi_plp_id="0" t2mi_pid="4096" />
 	</sat>
 	<sat name="146.0E C-band Nusantara Satu" flags="1" position="1461">
+		<transponder frequency="3579000" symbol_rate="19786000" polarization="1" fec_inner="2" system="0" modulation="1" />
 		<transponder frequency="4013000" symbol_rate="4090000" polarization="0" fec_inner="1" system="0" modulation="1" />
 	</sat>
 	<sat name="150.5E C-band BRIsat" flags="1" position="1506">
