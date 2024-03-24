@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
     Grabber 12.2.0 for Open Vision
-    File created on 2024-03-17
+    File created on 2024-03-24
     BeautifulSoup Parser html5lib
     Lyngsat(regions=america, urls=54, satellites=50)
 -->
@@ -300,6 +300,7 @@
 		<transponder frequency="4164000" symbol_rate="1936000" polarization="1" fec_inner="1" system="0" modulation="1" />
 	</sat>
 	<sat name="105.0W C-band AMC 15 &amp; EchoStar 105/SES 11" flags="1" position="-1051">
+		<transponder frequency="3712000" symbol_rate="3000000" polarization="1" fec_inner="4" system="1" modulation="2" />
 		<transponder frequency="3991000" symbol_rate="5833000" polarization="1" fec_inner="3" system="1" modulation="2" />
 		<transponder frequency="4020000" symbol_rate="30000000" polarization="0" fec_inner="4" system="1" modulation="2" />
 		<transponder frequency="4025000" symbol_rate="5000000" polarization="1" fec_inner="4" system="1" modulation="2" />
