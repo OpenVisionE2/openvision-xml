@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
     Grabber 12.2.0 for Open Vision
-    File created on 2024-04-07
+    File created on 2024-04-14
     BeautifulSoup Parser html5lib
     Lyngsat(regions=atlantic, urls=25, satellites=38)
 -->
@@ -523,7 +523,6 @@
 		<transponder frequency="11637000" symbol_rate="27500000" polarization="1" fec_inner="4" system="1" modulation="2" />
 		<transponder frequency="11678000" symbol_rate="27500000" polarization="1" fec_inner="5" system="0" modulation="1" />
 		<transponder frequency="12521000" symbol_rate="27500000" polarization="0" fec_inner="2" system="1" modulation="2" />
-		<transponder frequency="12521000" symbol_rate="27500000" polarization="1" fec_inner="5" system="0" modulation="1" />
 		<transponder frequency="12563000" symbol_rate="27500000" polarization="0" fec_inner="4" system="0" modulation="1" />
 		<transponder frequency="12563000" symbol_rate="27500000" polarization="1" fec_inner="5" system="0" modulation="1" />
 		<transponder frequency="12582000" symbol_rate="2222000" polarization="1" fec_inner="1" system="0" modulation="1" />
@@ -536,6 +535,7 @@
 		<transponder frequency="12687000" symbol_rate="27500000" polarization="0" fec_inner="5" system="0" modulation="1" />
 		<transponder frequency="12687000" symbol_rate="27500000" polarization="1" fec_inner="3" system="1" modulation="2" />
 		<transponder frequency="12729000" symbol_rate="27500000" polarization="0" fec_inner="2" system="1" modulation="2" />
+		<transponder frequency="12729000" symbol_rate="27500000" polarization="1" fec_inner="4" system="0" modulation="1" />
 	</sat>
 	<sat name="7.0W Ka-band Nilesat 201/301 &amp; Eutelsat 7 West A" flags="1" position="-72">
 		<transponder frequency="13575000" symbol_rate="27500000" polarization="0" fec_inner="4" system="0" modulation="1" />
