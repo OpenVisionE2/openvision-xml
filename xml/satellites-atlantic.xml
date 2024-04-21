@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
     Grabber 12.2.0 for Open Vision
-    File created on 2024-04-14
+    File created on 2024-04-21
     BeautifulSoup Parser html5lib
     Lyngsat(regions=atlantic, urls=25, satellites=38)
 -->
@@ -483,8 +483,6 @@
 		<transponder frequency="10971000" symbol_rate="1500000" polarization="0" fec_inner="2" system="1" modulation="2" />
 		<transponder frequency="10974000" symbol_rate="2963000" polarization="0" fec_inner="3" system="0" modulation="1" />
 		<transponder frequency="11456000" symbol_rate="3000000" polarization="0" fec_inner="3" system="0" modulation="1" />
-		<transponder frequency="11473000" symbol_rate="3590000" polarization="1" fec_inner="3" system="1" modulation="2" />
-		<transponder frequency="11479000" symbol_rate="2646000" polarization="1" fec_inner="8" system="1" modulation="1" />
 		<transponder frequency="11484000" symbol_rate="3535000" polarization="0" fec_inner="7" system="1" modulation="1" />
 		<transponder frequency="11541000" symbol_rate="8264000" polarization="0" fec_inner="3" system="1" modulation="1" />
 		<transponder frequency="11580000" symbol_rate="2894000" polarization="1" fec_inner="3" system="1" modulation="2" />
@@ -563,6 +561,7 @@
 		<transponder frequency="11475000" symbol_rate="27500000" polarization="1" fec_inner="3" system="0" modulation="1" />
 		<transponder frequency="11488000" symbol_rate="27500000" polarization="0" fec_inner="5" system="0" modulation="1" />
 		<transponder frequency="11514000" symbol_rate="27500000" polarization="1" fec_inner="2" system="1" modulation="2" />
+		<transponder frequency="11526000" symbol_rate="27500000" polarization="0" fec_inner="4" system="1" modulation="2" />
 		<transponder frequency="11559000" symbol_rate="27500000" polarization="1" fec_inner="4" system="0" modulation="1" />
 		<transponder frequency="11564000" symbol_rate="27500000" polarization="0" fec_inner="2" system="1" modulation="2" />
 		<transponder frequency="11603000" symbol_rate="27500000" polarization="0" fec_inner="4" system="0" modulation="1" />
