@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
     Grabber 12.2.0 for Open Vision
-    File created on 2024-09-08
+    File created on 2024-09-15
     BeautifulSoup Parser html5lib
     Lyngsat(regions=america, urls=52, satellites=52)
 -->
@@ -367,6 +367,8 @@
 	<sat name="97.0W C-band Galaxy 19" flags="1" position="-971">
 		<transponder frequency="3809000" symbol_rate="10890000" polarization="0" fec_inner="7" system="1" modulation="2" />
 		<transponder frequency="3861000" symbol_rate="6522000" polarization="0" fec_inner="4" system="1" modulation="2" />
+		<transponder frequency="3866000" symbol_rate="5046000" polarization="0" fec_inner="3" system="1" modulation="2" />
+		<transponder frequency="3875000" symbol_rate="5046000" polarization="0" fec_inner="3" system="1" modulation="2" />
 		<transponder frequency="3913000" symbol_rate="8400000" polarization="0" fec_inner="7" system="1" modulation="2" />
 		<transponder frequency="4009000" symbol_rate="15000000" polarization="1" fec_inner="4" system="1" modulation="2" />
 		<transponder frequency="4032000" symbol_rate="9600000" polarization="0" fec_inner="4" system="1" modulation="2" />
