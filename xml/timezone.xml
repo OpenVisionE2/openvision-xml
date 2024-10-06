@@ -3,7 +3,7 @@
 <!--
 	This data has been extracted from the official IANA data
 	as distributed by TimezonesDB (https://timezonedb.com) on
-	September 2024 by the program TimeZoneUpdater written by IanSav.
+	October 2024 by the program TimeZoneUpdater written by IanSav.
 
 	IMPORTANT NOTE: It is preferred that this file not be edited
 	except to bring it into line with future IANA updates.  If this
@@ -392,6 +392,7 @@
 	<zone name="(GMT+10:00) Australia: Brisbane" zone="Australia/Brisbane" countryCode="AU" languageCode="en" localeCode="en_AU" />
 	<zone name="(GMT+10:00) Australia: Hobart" zone="Australia/Hobart" countryCode="AU" languageCode="en" localeCode="en_AU" />
 	<zone name="(GMT+10:00) Australia: Lindeman Island" zone="Australia/Lindeman" countryCode="AU" languageCode="en" localeCode="en_AU" />
+	<zone name="(GMT+10:00) Australia: Lord Howe Island" zone="Australia/Lord_Howe" countryCode="AU" languageCode="en" localeCode="en_AU" />
 	<zone name="(GMT+10:00) Australia: Macquarie Island" zone="Antarctica/Macquarie" countryCode="AU" languageCode="en" localeCode="en_AU" />
 	<zone name="(GMT+10:00) Australia: Melbourne" zone="Australia/Melbourne" countryCode="AU" languageCode="en" localeCode="en_AU" />
 	<zone name="(GMT+10:00) Australia: Sydney" zone="Australia/Sydney" countryCode="AU" languageCode="en" localeCode="en_AU" />
@@ -401,7 +402,6 @@
 	<zone name="(GMT+10:00) Papua New Guinea: Port Moresby" zone="Pacific/Port_Moresby" countryCode="PG" languageCode="tpi" localeCode="tpi_PG" />
 	<zone name="(GMT+10:00) Russia: Ust-Nera" zone="Asia/Ust-Nera" countryCode="RU" languageCode="ru" localeCode="ru_RU" />
 	<zone name="(GMT+10:00) Russia: Vladivostok" zone="Asia/Vladivostok" countryCode="RU" languageCode="ru" localeCode="ru_RU" />
-	<zone name="(GMT+10:30) Australia: Lord Howe Island" zone="Australia/Lord_Howe" countryCode="AU" languageCode="en" localeCode="en_AU" />
 	<zone name="(GMT+11:00) Micronesia: Kosrae" zone="Pacific/Kosrae" countryCode="FM" languageCode="en" localeCode="en_FM" />
 	<zone name="(GMT+11:00) Micronesia: Pohnpei" zone="Pacific/Pohnpei" countryCode="FM" languageCode="en" localeCode="en_FM" />
 	<zone name="(GMT+11:00) New Caledonia" zone="Pacific/Noumea" countryCode="NC" languageCode="fr" localeCode="fr_NC" />
