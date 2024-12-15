@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
     Grabber 12.2.0 for Open Vision
-    File created on 2024-12-08
+    File created on 2024-12-15
     BeautifulSoup Parser html5lib
-    Lyngsat(regions=atlantic, urls=27, satellites=38)
+    Lyngsat(regions=atlantic, urls=28, satellites=38)
 -->
 <satellites>
 	<sat name="61.0W C-band Amazonas 2/3/5" flags="1" position="-611">
@@ -685,8 +685,6 @@
 		<transponder frequency="11132000" symbol_rate="30000000" polarization="0" fec_inner="3" system="1" modulation="2" />
 		<transponder frequency="11168000" symbol_rate="30000000" polarization="0" fec_inner="3" system="1" modulation="2" />
 		<transponder frequency="11572000" symbol_rate="1666000" polarization="0" fec_inner="3" system="0" modulation="1" />
-		<transponder frequency="11614000" symbol_rate="2916000" polarization="0" fec_inner="3" system="1" modulation="1" />
-		<transponder frequency="11617000" symbol_rate="1666000" polarization="0" fec_inner="4" system="1" modulation="2" />
 	</sat>
 	<sat name="0.8W C-band Thor 5/6/7 &amp; Intelsat 10-02" flags="1" position="-9">
 		<transponder frequency="3977000" symbol_rate="17777000" polarization="2" fec_inner="3" system="0" modulation="1" />
