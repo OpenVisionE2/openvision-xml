@@ -129,7 +129,6 @@
 	<zone name="(GMT-04:00) Guyana" zone="America/Guyana" countryCode="GY" languageCode="en" localeCode="en_GY" />
 	<zone name="(GMT-04:00) Martinique" zone="America/Martinique" countryCode="MQ" languageCode="fr" localeCode="fr_MQ" />
 	<zone name="(GMT-04:00) Montserrat" zone="America/Montserrat" countryCode="MS" languageCode="en" localeCode="en_MS" />
-	<zone name="(GMT-04:00) Paraguay" zone="America/Asuncion" countryCode="PY" languageCode="gn" localeCode="gn_PY" />
 	<zone name="(GMT-04:00) Puerto Rico" zone="America/Puerto_Rico" countryCode="PR" languageCode="es" localeCode="es_PR" />
 	<zone name="(GMT-04:00) Saint Barthelemy" zone="America/St_Barthelemy" countryCode="BL" languageCode="fr" localeCode="fr_BL" />
 	<zone name="(GMT-04:00) Saint Kitts and Nevis" zone="America/St_Kitts" countryCode="KN" languageCode="en" localeCode="en_KN" />
@@ -164,6 +163,7 @@
 	<zone name="(GMT-03:00) Brazil: Sao Paulo" zone="America/Sao_Paulo" countryCode="BR" languageCode="pt" localeCode="pt_BR" />
 	<zone name="(GMT-03:00) Falkland Islands" zone="Atlantic/Stanley" countryCode="FK" languageCode="en" localeCode="en_FK" />
 	<zone name="(GMT-03:00) French Guiana" zone="America/Cayenne" countryCode="GF" languageCode="fr" localeCode="fr_GF" />
+	<zone name="(GMT-03:00) Paraguay" zone="America/Asuncion" countryCode="PY" languageCode="gn" localeCode="gn_PY" />
 	<zone name="(GMT-03:00) Saint Pierre and Miquelon" zone="America/Miquelon" countryCode="PM" languageCode="fr" localeCode="fr_PM" />
 	<zone name="(GMT-03:00) Suriname" zone="America/Paramaribo" countryCode="SR" languageCode="nl" localeCode="nl_SR" />
 	<zone name="(GMT-03:00) Uruguay" zone="America/Montevideo" countryCode="UY" languageCode="es" localeCode="es_UY" />
