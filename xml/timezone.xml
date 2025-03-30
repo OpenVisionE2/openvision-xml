@@ -174,7 +174,6 @@
 	<zone name="(GMT-01:00) Cabo Verde" zone="Atlantic/Cape_Verde" countryCode="CV" languageCode="pt" localeCode="pt_CV" />
 	<zone name="(GMT-01:00) Morocco" zone="Africa/El_Aaiun" countryCode="MA" languageCode="ar" localeCode="ar_MA" />
 	<zone name="(GMT-01:00) Portugal: Azores" zone="Atlantic/Azores" countryCode="PT" languageCode="pt" localeCode="pt_PT" />
-	<zone name="(GMT) Antarctica: Troll" zone="Antarctica/Troll" countryCode="AQ" languageCode="en" localeCode="en_AQ" />
 	<zone name="(GMT) Burkina Faso" zone="Africa/Ouagadougou" countryCode="BF" languageCode="fr" localeCode="fr_BF" />
 	<zone name="(GMT) Faroe Islands" zone="Atlantic/Faroe" countryCode="FO" languageCode="fo" localeCode="fo_FO" />
 	<zone name="(GMT) Gambia" zone="Africa/Banjul" countryCode="GM" languageCode="en" localeCode="en_GM" />
@@ -204,6 +203,7 @@
 	<zone name="(GMT+01:00) Algeria" zone="Africa/Algiers" countryCode="DZ" languageCode="ar" localeCode="ar_DZ" />
 	<zone name="(GMT+01:00) Andorra" zone="Europe/Andorra" countryCode="AD" languageCode="ca" localeCode="ca_AD" />
 	<zone name="(GMT+01:00) Angola" zone="Africa/Luanda" countryCode="AO" languageCode="pt" localeCode="pt_AO" />
+	<zone name="(GMT+01:00) Antarctica: Troll" zone="Antarctica/Troll" countryCode="AQ" languageCode="en" localeCode="en_AQ" />
 	<zone name="(GMT+01:00) Austria" zone="Europe/Vienna" countryCode="AT" languageCode="de" localeCode="de_AT" />
 	<zone name="(GMT+01:00) Belgium" zone="Europe/Brussels" countryCode="BE" languageCode="nl" localeCode="nl_BE" />
 	<zone name="(GMT+01:00) Benin" zone="Africa/Porto-Novo" countryCode="BJ" languageCode="fr" localeCode="fr_BJ" />
