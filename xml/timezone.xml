@@ -210,7 +210,7 @@
 	<zone name="(GMT+01:00) Bosnia and Herzegovina" zone="Europe/Sarajevo" countryCode="BA" languageCode="bs_Cyrl" localeCode="bs_Cyrl_BA" />
 	<zone name="(GMT+01:00) Cameroon" zone="Africa/Douala" countryCode="CM" languageCode="fr" localeCode="fr_CM" />
 	<zone name="(GMT+01:00) Central African Republic" zone="Africa/Bangui" countryCode="CF" languageCode="sg" localeCode="sg_CF" />
-	<zone name="(GMT+01:00) Chad" zone="Africa/Ndjamena" countryCode="TD" languageCode="fr" localeCode="fr_TD" />
+	<zone name="(GMT+01:00) Chad" zone="Africa/Ndjamena" countryCode="TD" languageCode="ar" localeCode="ar_TD" />
 	<zone name="(GMT+01:00) Croatia" zone="Europe/Zagreb" countryCode="HR" languageCode="hr" localeCode="hr_HR" />
 	<zone name="(GMT+01:00) Czechia" zone="Europe/Prague" countryCode="CZ" languageCode="cs" localeCode="cs_CZ" />
 	<zone name="(GMT+01:00) Democratic Republic of the Congo: Kinshasa" zone="Africa/Kinshasa" countryCode="CD" languageCode="fr" localeCode="fr_CD" />
@@ -286,7 +286,7 @@
 	<zone name="(GMT+03:00) Bahrain" zone="Asia/Bahrain" countryCode="BH" languageCode="ar" localeCode="ar_BH" />
 	<zone name="(GMT+03:00) Belarus" zone="Europe/Minsk" countryCode="BY" languageCode="be" localeCode="be_BY" />
 	<zone name="(GMT+03:00) Comoros" zone="Indian/Comoro" countryCode="KM" languageCode="ar" localeCode="ar_KM" />
-	<zone name="(GMT+03:00) Djibouti" zone="Africa/Djibouti" countryCode="DJ" languageCode="ar" localeCode="ar_DJ" />
+	<zone name="(GMT+03:00) Djibouti" zone="Africa/Djibouti" countryCode="DJ" languageCode="fr" localeCode="fr_DJ" />
 	<zone name="(GMT+03:00) Eritrea" zone="Africa/Asmara" countryCode="ER" languageCode="ti" localeCode="ti_ER" />
 	<zone name="(GMT+03:00) Ethiopia" zone="Africa/Addis_Ababa" countryCode="ET" languageCode="am" localeCode="am_ET" />
 	<zone name="(GMT+03:00) Iraq" zone="Asia/Baghdad" countryCode="IQ" languageCode="ar" localeCode="ar_IQ" />
@@ -309,7 +309,7 @@
 	<zone name="(GMT+04:00) Armenia" zone="Asia/Yerevan" countryCode="AM" languageCode="hy" localeCode="hy_AM" />
 	<zone name="(GMT+04:00) Azerbaijan" zone="Asia/Baku" countryCode="AZ" languageCode="az" localeCode="az_AZ" />
 	<zone name="(GMT+04:00) Georgia" zone="Asia/Tbilisi" countryCode="GE" languageCode="ka" localeCode="ka_GE" />
-	<zone name="(GMT+04:00) Mauritius" zone="Indian/Mauritius" countryCode="MU" languageCode="en" localeCode="en_MU" />
+	<zone name="(GMT+04:00) Mauritius" zone="Indian/Mauritius" countryCode="MU" languageCode="fr" localeCode="fr_MU" />
 	<zone name="(GMT+04:00) Oman" zone="Asia/Muscat" countryCode="OM" languageCode="ar" localeCode="ar_OM" />
 	<zone name="(GMT+04:00) Reunion" zone="Indian/Reunion" countryCode="RE" languageCode="fr" localeCode="fr_RE" />
 	<zone name="(GMT+04:00) Russia: Astrakhan" zone="Europe/Astrakhan" countryCode="RU" languageCode="ru" localeCode="ru_RU" />
