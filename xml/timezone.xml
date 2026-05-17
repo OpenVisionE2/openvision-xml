@@ -174,7 +174,6 @@
 	<zone name="(GMT-02:00) South Georgia and the South Sandwich Islands" zone="Atlantic/South_Georgia" countryCode="GS" languageCode="en" localeCode="en_GS" />
 	<zone name="(GMT-01:00) Cabo Verde" zone="Atlantic/Cape_Verde" countryCode="CV" languageCode="pt" localeCode="pt_CV" />
 	<zone name="(GMT-01:00) Portugal: Azores" zone="Atlantic/Azores" countryCode="PT" languageCode="pt" localeCode="pt_PT" />
-	<zone name="(GMT) Antarctica: Troll" zone="Antarctica/Troll" countryCode="AQ" languageCode="en" localeCode="en_AQ" />
 	<zone name="(GMT) Burkina Faso" zone="Africa/Ouagadougou" countryCode="BF" languageCode="fr" localeCode="fr_BF" />
 	<zone name="(GMT) Faroe Islands" zone="Atlantic/Faroe" countryCode="FO" languageCode="fo" localeCode="fo_FO" />
 	<zone name="(GMT) Gambia" zone="Africa/Banjul" countryCode="GM" languageCode="en" localeCode="en_GM" />
@@ -204,6 +203,7 @@
 	<zone name="(GMT+01:00) Algeria" zone="Africa/Algiers" countryCode="DZ" languageCode="ar" localeCode="ar_DZ" />
 	<zone name="(GMT+01:00) Andorra" zone="Europe/Andorra" countryCode="AD" languageCode="ca" localeCode="ca_AD" />
 	<zone name="(GMT+01:00) Angola" zone="Africa/Luanda" countryCode="AO" languageCode="pt" localeCode="pt_AO" />
+	<zone name="(GMT+01:00) Antarctica: Troll" zone="Antarctica/Troll" countryCode="AQ" languageCode="en" localeCode="en_AQ" />
 	<zone name="(GMT+01:00) Austria" zone="Europe/Vienna" countryCode="AT" languageCode="de" localeCode="de_AT" />
 	<zone name="(GMT+01:00) Belgium" zone="Europe/Brussels" countryCode="BE" languageCode="nl" localeCode="nl_BE" />
 	<zone name="(GMT+01:00) Benin" zone="Africa/Porto-Novo" countryCode="BJ" languageCode="fr" localeCode="fr_BJ" />
@@ -392,7 +392,6 @@
 	<zone name="(GMT+10:00) Australia: Brisbane" zone="Australia/Brisbane" countryCode="AU" languageCode="en" localeCode="en_AU" />
 	<zone name="(GMT+10:00) Australia: Hobart" zone="Australia/Hobart" countryCode="AU" languageCode="en" localeCode="en_AU" />
 	<zone name="(GMT+10:00) Australia: Lindeman Island" zone="Australia/Lindeman" countryCode="AU" languageCode="en" localeCode="en_AU" />
-	<zone name="(GMT+10:00) Australia: Lord Howe Island" zone="Australia/Lord_Howe" countryCode="AU" languageCode="en" localeCode="en_AU" />
 	<zone name="(GMT+10:00) Australia: Macquarie Island" zone="Antarctica/Macquarie" countryCode="AU" languageCode="en" localeCode="en_AU" />
 	<zone name="(GMT+10:00) Australia: Melbourne" zone="Australia/Melbourne" countryCode="AU" languageCode="en" localeCode="en_AU" />
 	<zone name="(GMT+10:00) Australia: Sydney" zone="Australia/Sydney" countryCode="AU" languageCode="en" localeCode="en_AU" />
@@ -402,6 +401,7 @@
 	<zone name="(GMT+10:00) Papua New Guinea: Port Moresby" zone="Pacific/Port_Moresby" countryCode="PG" languageCode="tpi" localeCode="tpi_PG" />
 	<zone name="(GMT+10:00) Russia: Ust-Nera" zone="Asia/Ust-Nera" countryCode="RU" languageCode="ru" localeCode="ru_RU" />
 	<zone name="(GMT+10:00) Russia: Vladivostok" zone="Asia/Vladivostok" countryCode="RU" languageCode="ru" localeCode="ru_RU" />
+	<zone name="(GMT+10:30) Australia: Lord Howe Island" zone="Australia/Lord_Howe" countryCode="AU" languageCode="en" localeCode="en_AU" />
 	<zone name="(GMT+11:00) Micronesia: Kosrae" zone="Pacific/Kosrae" countryCode="FM" languageCode="en" localeCode="en_FM" />
 	<zone name="(GMT+11:00) Micronesia: Pohnpei" zone="Pacific/Pohnpei" countryCode="FM" languageCode="en" localeCode="en_FM" />
 	<zone name="(GMT+11:00) New Caledonia" zone="Pacific/Noumea" countryCode="NC" languageCode="fr" localeCode="fr_NC" />
