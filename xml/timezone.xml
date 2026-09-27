@@ -190,6 +190,7 @@
 	<zone name="(GMT) Liberia" zone="Africa/Monrovia" countryCode="LR" languageCode="en" localeCode="en_LR" />
 	<zone name="(GMT) Mali" zone="Africa/Bamako" countryCode="ML" languageCode="fr" localeCode="fr_ML" />
 	<zone name="(GMT) Mauritania" zone="Africa/Nouakchott" countryCode="MR" languageCode="ar" localeCode="ar_MR" />
+	<zone name="(GMT) Morocco" zone="Africa/El_Aaiun" countryCode="MA" languageCode="ar" localeCode="ar_MA" />
 	<zone name="(GMT) Portugal: Lisbon" zone="Europe/Lisbon" countryCode="PT" languageCode="pt" localeCode="pt_PT" />
 	<zone name="(GMT) Portugal: Madeira" zone="Atlantic/Madeira" countryCode="PT" languageCode="pt" localeCode="pt_PT" />
 	<zone name="(GMT) Saint Helena" zone="Atlantic/St_Helena" countryCode="SH" languageCode="en" localeCode="en_SH" />
@@ -228,7 +229,6 @@
 	<zone name="(GMT+01:00) Malta" zone="Europe/Malta" countryCode="MT" languageCode="mt" localeCode="mt_MT" />
 	<zone name="(GMT+01:00) Monaco" zone="Europe/Monaco" countryCode="MC" languageCode="fr" localeCode="fr_MC" />
 	<zone name="(GMT+01:00) Montenegro" zone="Europe/Podgorica" countryCode="ME" languageCode="sr_Latn" localeCode="sr_Latn_ME" />
-	<zone name="(GMT+01:00) Morocco" zone="Africa/El_Aaiun" countryCode="MA" languageCode="ar" localeCode="ar_MA" />
 	<zone name="(GMT+01:00) Netherlands" zone="Europe/Amsterdam" countryCode="NL" languageCode="nl" localeCode="nl_NL" />
 	<zone name="(GMT+01:00) Niger" zone="Africa/Niamey" countryCode="NE" languageCode="fr" localeCode="fr_NE" />
 	<zone name="(GMT+01:00) Nigeria" zone="Africa/Lagos" countryCode="NG" languageCode="en" localeCode="en_NG" />
