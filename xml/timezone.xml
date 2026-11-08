@@ -28,7 +28,6 @@
 	<zone name="(GMT-09:00) United States: Nome" zone="America/Nome" countryCode="US" languageCode="en" localeCode="en_US" />
 	<zone name="(GMT-09:00) United States: Sitka" zone="America/Sitka" countryCode="US" languageCode="en" localeCode="en_US" />
 	<zone name="(GMT-09:00) United States: Yakutat" zone="America/Yakutat" countryCode="US" languageCode="en" localeCode="en_US" />
-	<zone name="(GMT-08:00) Canada: Vancouver" zone="America/Vancouver" countryCode="CA" languageCode="en" localeCode="en_CA" />
 	<zone name="(GMT-08:00) Mexico: Tijuana" zone="America/Tijuana" countryCode="MX" languageCode="es" localeCode="es_MX" />
 	<zone name="(GMT-08:00) Pitcairn Islands" zone="Pacific/Pitcairn" countryCode="PN" languageCode="en" localeCode="en_PN" />
 	<zone name="(GMT-08:00) United States: Los Angeles" zone="America/Los_Angeles" countryCode="US" languageCode="en" localeCode="en_US" />
@@ -36,9 +35,8 @@
 	<zone name="(GMT-07:00) Canada: Creston" zone="America/Creston" countryCode="CA" languageCode="en" localeCode="en_CA" />
 	<zone name="(GMT-07:00) Canada: Dawson" zone="America/Dawson" countryCode="CA" languageCode="en" localeCode="en_CA" />
 	<zone name="(GMT-07:00) Canada: Dawson Creek" zone="America/Dawson_Creek" countryCode="CA" languageCode="en" localeCode="en_CA" />
-	<zone name="(GMT-07:00) Canada: Edmonton" zone="America/Edmonton" countryCode="CA" languageCode="en" localeCode="en_CA" />
 	<zone name="(GMT-07:00) Canada: Fort Nelson" zone="America/Fort_Nelson" countryCode="CA" languageCode="en" localeCode="en_CA" />
-	<zone name="(GMT-07:00) Canada: Inuvik" zone="America/Inuvik" countryCode="CA" languageCode="en" localeCode="en_CA" />
+	<zone name="(GMT-07:00) Canada: Vancouver" zone="America/Vancouver" countryCode="CA" languageCode="en" localeCode="en_CA" />
 	<zone name="(GMT-07:00) Canada: Whitehorse" zone="America/Whitehorse" countryCode="CA" languageCode="en" localeCode="en_CA" />
 	<zone name="(GMT-07:00) Mexico: Ciudad Juarez" zone="America/Ciudad_Juarez" countryCode="MX" languageCode="es" localeCode="es_MX" />
 	<zone name="(GMT-07:00) Mexico: Hermosillo" zone="America/Hermosillo" countryCode="MX" languageCode="es" localeCode="es_MX" />
@@ -47,11 +45,12 @@
 	<zone name="(GMT-07:00) United States: Denver" zone="America/Denver" countryCode="US" languageCode="en" localeCode="en_US" />
 	<zone name="(GMT-07:00) United States: Phoenix" zone="America/Phoenix" countryCode="US" languageCode="en" localeCode="en_US" />
 	<zone name="(GMT-06:00) Belize" zone="America/Belize" countryCode="BZ" languageCode="en" localeCode="en_BZ" />
+	<zone name="(GMT-06:00) Canada: Edmonton" zone="America/Edmonton" countryCode="CA" languageCode="en" localeCode="en_CA" />
+	<zone name="(GMT-06:00) Canada: Inuvik" zone="America/Inuvik" countryCode="CA" languageCode="en" localeCode="en_CA" />
 	<zone name="(GMT-06:00) Canada: Rankin Inlet" zone="America/Rankin_Inlet" countryCode="CA" languageCode="en" localeCode="en_CA" />
 	<zone name="(GMT-06:00) Canada: Regina" zone="America/Regina" countryCode="CA" languageCode="en" localeCode="en_CA" />
 	<zone name="(GMT-06:00) Canada: Resolute" zone="America/Resolute" countryCode="CA" languageCode="en" localeCode="en_CA" />
 	<zone name="(GMT-06:00) Canada: Swift Current" zone="America/Swift_Current" countryCode="CA" languageCode="en" localeCode="en_CA" />
-	<zone name="(GMT-06:00) Canada: Winnipeg" zone="America/Winnipeg" countryCode="CA" languageCode="en" localeCode="en_CA" />
 	<zone name="(GMT-06:00) Chile: Easter" zone="Pacific/Easter" countryCode="CL" languageCode="es" localeCode="es_CL" />
 	<zone name="(GMT-06:00) Costa Rica" zone="America/Costa_Rica" countryCode="CR" languageCode="es" localeCode="es_CR" />
 	<zone name="(GMT-06:00) Ecuador: Galapagos Islands" zone="Pacific/Galapagos" countryCode="EC" languageCode="es" localeCode="es_EC" />
@@ -79,6 +78,7 @@
 	<zone name="(GMT-05:00) Canada: Atikokan" zone="America/Atikokan" countryCode="CA" languageCode="en" localeCode="en_CA" />
 	<zone name="(GMT-05:00) Canada: Iqaluit" zone="America/Iqaluit" countryCode="CA" languageCode="en" localeCode="en_CA" />
 	<zone name="(GMT-05:00) Canada: Toronto" zone="America/Toronto" countryCode="CA" languageCode="en" localeCode="en_CA" />
+	<zone name="(GMT-05:00) Canada: Winnipeg" zone="America/Winnipeg" countryCode="CA" languageCode="en" localeCode="en_CA" />
 	<zone name="(GMT-05:00) Cayman Islands" zone="America/Cayman" countryCode="KY" languageCode="en" localeCode="en_KY" />
 	<zone name="(GMT-05:00) Colombia" zone="America/Bogota" countryCode="CO" languageCode="es" localeCode="es_CO" />
 	<zone name="(GMT-05:00) Cuba" zone="America/Havana" countryCode="CU" languageCode="es" localeCode="es_CU" />
